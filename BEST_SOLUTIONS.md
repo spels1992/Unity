@@ -42,3 +42,7 @@
 | 2D dungeon | [Edgar Free](Tool_Catalog/edgar-unity-free.md) | MIT core, бесплатно | PRO функции платные/исключены |
 
 [Подробная сравнительная матрица](Comparisons/FREE_FRAMEWORKS_2026.md).
+
+
+### Дополнение: Moonforge даёт готовую Unity roguelike sample
+[Moonforge RPG](Tool_Catalog/moonforge-rpg-engine.md) не только Core: в UPM включена Unity sample с Town, Dungeon, HUD, боем, questing, save/load и процедурной генерацией. [Sample README](https://github.com/3583Bytes/moonforge-rpg-engine/blob/main/unity-packages/com.moonforge.core/Samples~/Roguelike/README.md). Для быстрого теста полноценной turn-based RPG он приоритетнее сборки отдельных подсистем. Однако **лицензионный файл тайлсета из README не найден в GitHub tree** — права на конкретный art подтвердить у правообладателя прежде чем переносить/распространять ассеты.

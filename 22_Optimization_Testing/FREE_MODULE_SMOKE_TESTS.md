@@ -57,3 +57,20 @@ tested_by: "..."
 ```
 
 **Не путать:** проверка github+LICENSE = DOCUMENTED; запуск sample в Editor = SMOKE TESTED; подтверждение совместимого стека и Player build = INTEGRATION TESTED; полноценное QA с устройствами = PRODUCTION EVALUATED. Никогда не объявлять higher verification, чем подтверждают доказательства.
+
+
+## Дополнение к Smoke 03 — Moonforge Unity Sample
+
+**Exact UPM:** `https://github.com/3583Bytes/moonforge-rpg-engine.git?path=unity-packages/com.moonforge.core`
+
+1. Установить в отдельный Unity 2022.3+ проект (целевой Unity6.3 тоже тестировать отдельно).
+2. Убедиться, что поставились Newtonsoft JSON, TextMeshPro, 2D Tilemap.
+3. Package Manager → Import Roguelike Sample.
+4. Window → TextMeshPro → Import TMP Essential Resources.
+5. Из-за legacy `Input.GetKeyDown` переключить Active Input Handling в Both или Old (если New only).
+6. Пустая Scene → Create Empty → Add Component Roguelike Bootstrap → Play.
+7. Пройти начало Town, открыть Dungeon, протестировать combat/quest/shop/save/load.
+8. Права на 0x72 DungeonTileset II пока не закрыты: LICENSE note, указанный в README, отсутствует по пути в GitHub tree. Для теста достаточно локального просмотра, для публикации/переиспользования изображений нужно подтвердить происхождение и лицензию.
+9. Записать logs/screenshots/build и GitHub-checkpoint.
+
+**Фактические результаты:** NOT_RUN, наш Editor здесь не запускался.

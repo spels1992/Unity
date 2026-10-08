@@ -70,3 +70,8 @@
 | [Unity Modular Inventory](https://github.com/usmanbutt-dev/UnityModularInventorySystem) | Demo, Unity6000.0.50f1, saving/equipment TODO |
 | [Softlight](https://github.com/Ziad-Amr1/softlight) | Unity6000.3.7f1, early dev, quests/inventory planned |
 | [Unity simple FPS Controller](https://github.com/yahiawork/The-First-Person-Controller-Unity-6) | MIT, classic Input Manager, no Unity ProjectVersion |
+
+
+| [Moonforge Unity roguelike sample README](https://github.com/3583Bytes/moonforge-rpg-engine/blob/main/unity-packages/com.moonforge.core/Samples~/Roguelike/README.md) | Import sample, зависимости TMP/Tilemap/Newtonsoft, legacy Input, Town/Dungeon, CC0 claim tileset |
+| [Moonforge main README](https://github.com/3583Bytes/moonforge-rpg-engine) | Точный UPM Git URL with path, целая Unity game sample |
+| [0x72 DungeonTileset II](https://0x72.itch.io/dungeontileset-ii) | Первичный источник для отдельной проверки license bundled art. В upstream LICENSE note по заявленному пути не найден |

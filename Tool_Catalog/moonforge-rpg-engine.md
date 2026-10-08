@@ -31,3 +31,21 @@ GitHub README, фактический текст лицензии и package.jso
 2. Подключить **без платных API/подписок**, создать отдельную сцену и smoke-тест.
 3. Проверить license других ассетов / third party dependencies.
 4. По итогам обновить [compatibility matrix](../COMPATIBILITY_MATRIX.md) и [free only policy](../FREE_ONLY_POLICY.md).
+
+
+## Найден уже работающий сценарий — Unity Roguelike Sample (8 октября 2026)
+
+**Важно: это не только domain engine.** Автор выпускает полноценный импортируемый Unity sample той же roguelike игры, что и console sample: town hub, procedurally generated dungeons, turn-based combat, status/damage, quests, gear, trading, crafting, town interactions, save/load, meta-progression. В Unity sample используется Tilemap + SpriteRenderer + TextMeshPro HUD и анимация спрайтов.
+
+- **Прямая документация sample:** https://github.com/3583Bytes/moonforge-rpg-engine/blob/main/unity-packages/com.moonforge.core/Samples~/Roguelike/README.md
+- **Официальный UPM Git URL (дословно из upstream README):** `https://github.com/3583Bytes/moonforge-rpg-engine.git?path=unity-packages/com.moonforge.core`.
+- **UPM sample:** Package Manager → Moonforge Core → Samples → Import Roguelike.
+- **Transitive UPM dependencies по sample README:** `com.unity.nuget.newtonsoft-json`, `com.unity.textmeshpro`, `com.unity.2d.tilemap`. Цена 0 ₽ при использовании локальных пакетов Unity (при условии доступности в Unity Registry).
+- **TMP resources:** Window → TextMeshPro → Import TMP Essential Resources.
+- **Клавиатурное управление:** sample использует legacy `Input.GetKeyDown`, поэтому для проекта с Input System Package-only следует в Edit → Project Settings → Player → Active Input Handling включить **Both** или **Input Manager (Old)**. События mouse/touch идут через EventSystem.
+- **Сцена:** Empty GameObject с `Roguelike Bootstrap` в новой пустой сцене. Код строит мир и UI при запуске.
+- **Тест:** открыть Town → start Run → Dungeon → Encounter → Loot → Quest Progress → Save/Load → Player Build.
+
+**Юридический GAP обнаружен при прямой проверке GitHub tree:** README атрибутирует 0x72 DungeonTileset II как CC0 и утверждает, что license note лежит рядом как `Art/DungeonTilesetII/LICENSE.txt`. При анализе полного дерева репозитория (1549 записей) файл LICENSE.txt **по указанному пути и среди путей с DungeonTileset/LICENSE не обнаружен**. Отдельную CC0 лицензию оригинального арт-пакета следует подтвердить у https://0x72.itch.io/dungeontileset-ii или получить исправленный LICENSE note автора прежде, чем распространять его в новой игре. Исходный код Moonforge по MIT имеет подтверждённую лицензию; это **не означает**, что происхождение всех встроенных изображений аудировано.
+
+**Статус этого блока:** изучено по документации sample/дереву upstream; PlayMode/Build мы не запускали. Можно использовать как первый кандидат для реального теста бесплатного RPG. 
