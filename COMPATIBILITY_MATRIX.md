@@ -72,3 +72,17 @@
 | [Armour Multiplayer-FPS](Tool_Catalog/armour-multiplayer-fps.md) | 2022.3.55f1, Photon PUN2 | NOT_RUN, server cost unknown |
 
 **VERIFIED здесь ноль**, подготовлен только анализ версий/конфликтов по исходникам.
+
+
+## Blender/Unity import и бесплатный звук — документальная проверка
+| Решение | Проверенная upstream metadata | Наш test status |
+|---|---|---|
+| [Rigify](Tool_Catalog/blender-rigify-free.md) | Blender built-in, docs 4.5/5.2, GPL | NOT_RUN |
+| [glTF-Blender-IO](Tool_Catalog/khronos-blender-gltf-io.md) | Blender 2.80+ bundled, Apache-2.0 | NOT_RUN |
+| [Unity glTFast](Tool_Catalog/unity-gltfast.md) | main package **6.20.1-pre.1**, minimum Unity 6000.0, Apache-2.0 | NOT_RUN; выбрать stable Registry |
+| [Ucupaint](Tool_Catalog/ucupaint-blender-free.md) | manifest 3.0.0, min Blender 4.2.0, GPL-3.0-or-later | NOT_RUN |
+| [TexTools](Tool_Catalog/textools-blender-free.md) | README Blender 3.2+, 5.x не гарантирована, GPLv3+ | NOT_RUN |
+| [ambientCG](Tool_Catalog/ambientcg-cc0.md) | CC0 assets / PBR textures | NOT_IMPORTED |
+| [Kenney CC0 audio](14_Audio/FREE_SOUND_PIPELINE.md) | 50 + 130 + 50 + 70 + 85 files | NOT_IMPORTED |
+
+**Нельзя** считать glTFast runtime export/render совпадающим без проверки Player Build shader variants. См. [3D-гайд](18_Blender_Integration/FREE_GLTF_RIG_UV_PRODUCTION.md).

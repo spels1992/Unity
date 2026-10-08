@@ -12,3 +12,6 @@
 - Какие альтернативы и известные риски, что тестировать перед производством?
 
 **Статус:** каталог направления ещё не заполнен полностью; см. [ROADMAP](../ROADMAP.md).
+
+## Первая подборка бесплатных CC0 звуков
+[FREE_SOUND_PIPELINE.md](FREE_SOUND_PIPELINE.md) — официальные Kenney packs UI, Impact, RPG, Sci-fi, Music Jingles, **385 аудиофайлов суммарно**, 0 ₽ (донации не нужны), с подходящим Unity AudioClip/AudioSource/AudioMixer workflow и тестом для PlayMode/Build.

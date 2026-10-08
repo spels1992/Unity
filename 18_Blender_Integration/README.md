@@ -16,3 +16,10 @@
 [FREE_ASSET_PIPELINE.md](FREE_ASSET_PIPELINE.md) — лицензированные CC0 ассеты → Blender → FBX → Unity → prefab/rig/PlayMode/Build. Бесплатные модели: [Poly Haven](../Tool_Catalog/poly-haven.md), [Kenney](../Tool_Catalog/kenney-free-assets.md), [Quaternius](../Tool_Catalog/quaternius-free-assets.md).
 
 [Provenance/лицензия каждого файла](../Integration_Guides/FREE_ASSET_LICENSE_LOG.md).
+
+
+## Пайплайн 2.0 — больше возможностей без новых расходов
+- [Rigify → UV/TexTools → Ucupaint/ambientCG → FBX/GLB → Unity](FREE_GLTF_RIG_UV_PRODUCTION.md), две законные и бесплатные стратегии импорта, включая glTFast.
+- [Сравнение инструментов](../Comparisons/FREE_BLENDER_TEXTURE_AUDIO_GLTF.md).
+- **Важный нюанс:** Khronos glTF exporter входит в Blender 2.8+, но Unity glTFast — отдельный бесплатный UPM. У preview main `6.20.1-pre.1` стабильность не доказана, выбирать стабильную совместимую версию Unity Registry.
+- Rigify control rigs/Blender Shader Nodes не экспортируются в Unity магически: bake animations/material maps; затем проверять Player build.

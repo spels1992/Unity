@@ -93,3 +93,22 @@
 | [TLabVehiclePhysics](https://github.com/TLabAltoh/TLabVehiclePhysics) | Pacejka/LUT, 2022.3.19; .gitmodules licence blockers |
 | [GridBasedCraftingSystem](https://github.com/neomasterrr/GridBasedCraftingSystem) | MIT source, 2022.3.9 |
 | [Armour Multiplayer FPS](https://github.com/Armour/Multiplayer-FPS) | MIT root, Photon/PUN2, Mixamo and Asset Store asset credits |
+
+
+## Первоисточники Blender + glTF + PBR + Audio (2026-10-08)
+| Источник | Что именно подтверждено |
+|---|---|
+| [Blender Rigify official manual](https://docs.blender.org/manual/en/4.5/addons/rigging/rigify/index.html) | Rigify bundled GPL and automatic rig |
+| [Blender License](https://www.blender.org/about/license/) | GPL для Blender, artwork права остаются у автора |
+| [Khronos glTF Blender IO](https://github.com/KhronosGroup/glTF-Blender-IO) | Apache-2.0, bundled exporter, official roundtrip |
+| [Unity glTFast upstream](https://github.com/Unity-Technologies/com.unity.cloud.gltfast) | Apache-2.0, Editor+runtime glTF |
+| [Unity glTFast manifest](https://github.com/Unity-Technologies/com.unity.cloud.gltfast/blob/main/Packages/com.unity.cloud.gltfast/package.json) | main 6.20.1-pre.1, minimum Unity 6000.0, Unity mathematical dependencies |
+| [Unity glTFast Third Party Notices](https://github.com/Unity-Technologies/com.unity.cloud.gltfast/blob/main/Third%20Party%20Notices.md) | CC-BY sample/test models, copyright attributions |
+| [Ucupaint manifest](https://github.com/ucupumar/ucupaint/blob/master/blender_manifest.toml) | GPL-3.0+, version 3.0.0, min Blender 4.2 |
+| [TexTools LICENSE](https://github.com/franMarz/TexTools-Blender/blob/master/LICENSE.txt) | GPLv3+, readme Blender 3.2+ |
+| [ambientCG](https://ambientcg.com/) | Бесплатные CC0 PBR assets, statement from asset provider |
+| [Kenney UI Audio](https://kenney.nl/assets/ui-audio) | CC0, 50 files |
+| [Kenney Impact Sounds](https://kenney.nl/assets/impact-sounds) | CC0, 130 files |
+| [Kenney RPG Audio](https://kenney.nl/assets/rpg-audio) | CC0, 50 files |
+| [Kenney Sci-fi Sounds](https://kenney.nl/assets/sci-fi-sounds) | CC0, 70 files |
+| [Kenney Music Jingles](https://kenney.nl/assets/music-jingles) | CC0, 85 files |

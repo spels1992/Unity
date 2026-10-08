@@ -59,3 +59,16 @@
 | Город из GeoJSON | [GeoJSON City Builder](Tool_Catalog/geojson-city-builder.md) | Готовое построение 3D объектов из геоданных | **BLOCKED**: лицензия com.virgis.geojson.net не выяснена |
 
 При любой сборке система Input/Save/Network/Physics должна иметь **одного владельца**. [Сравнение](Comparisons/VEHICLES_SURVIVAL_BUILDING_FPS_2026.md).
+
+
+## Бесплатные арт- и аудиопути от нуля до Unity
+| Что нужно | Первое решение 0 ₽ | Если не подходит |
+|---|---|---|
+| Rig/анимация в Blender | [Встроенный Rigify](Tool_Catalog/blender-rigify-free.md) GPL | Ручной Armature/Quaternius готовые rigged models |
+| UV острова, texel density | [TexTools](Tool_Catalog/textools-blender-free.md) GPL + Blender UV Editor | Штатный Blender UV Editor/Bake, без установки addon |
+| Текстурные слои | [Ucupaint](Tool_Catalog/ucupaint-blender-free.md), GPL | Встроенный Blender Texture Paint |
+| CC0 PBR | [ambientCG](Tool_Catalog/ambientcg-cc0.md), [Poly Haven](Tool_Catalog/poly-haven.md) | Blender procedural maps + bake |
+| Unity GLB import | [Khronos exporter](Tool_Catalog/khronos-blender-gltf-io.md) + [Unity glTFast](Tool_Catalog/unity-gltfast.md), Apache-2.0 | FBX + Unity ModelImporter |
+| UI/RPG/impact/sci-fi звуки | [Kenney отдельные CC0 наборы](14_Audio/FREE_SOUND_PIPELINE.md) | Собственные записи с лицензией |
+
+**Unity glTFast main preview 6.20.1-pre.1 не считать production stable**; выбрать Registry stable package и проверить Shader Graph variants при Player Build. [Полное руководство](18_Blender_Integration/FREE_GLTF_RIG_UV_PRODUCTION.md).

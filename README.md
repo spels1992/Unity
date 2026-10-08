@@ -95,3 +95,11 @@
 - [Пошаговый метод пополнения базы: от запроса к ссылке, проверке прав и тесту](01_Game_Development_Pipeline/RESEARCH_METHOD_ZERO_COST.md).
 - [Список непроверенных лицензий и платных внешних зависимостей](Research_Archive/BLOCKED_DEPENDENCIES_2026_10.md).
 - **Состояние:** все изучены по GitHub, без запуска в нашем Unity Editor. Правило 0 ₽ сохраняется.
+
+
+## Новый этап 2026-10-08: бесплатный контент для завершённой игры
+- [11 новых карточек: Blender / glTFast / PBR / звуки](Tool_Catalog/INDEX.md#blender--unity-gltf-uv-rigging-pbr--бесплатные-инструменты).
+- [Подробный бесплатный 3D workflow](18_Blender_Integration/FREE_GLTF_RIG_UV_PRODUCTION.md) — Rigify, UV, Ucupaint, текстуры, FBX/GLB, Unity prefab, animations и Player build.
+- [Бесплатный audio workflow](14_Audio/FREE_SOUND_PIPELINE.md) — 5 отдельных Kenney CC0 наборов, всего **385 файлов** по авторским карточкам; Unity mixer, 2D/3D playback, оптимизация.
+- [Сравнение методов](Comparisons/FREE_BLENDER_TEXTURE_AUDIO_GLTF.md), почему GLB удобнее для PBR, а FBX — надёжный fallback без сторонних Unity пакетов.
+- Все версии и лицензии документированы, **совместимость в нашем редакторе пока не подтверждена**. Политика ZERO COST действует.

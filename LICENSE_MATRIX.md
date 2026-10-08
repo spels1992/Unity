@@ -78,3 +78,17 @@
 | [Armour Multiplayer-FPS](Tool_Catalog/armour-multiplayer-fps.md) | [MIT](https://github.com/Armour/Multiplayer-FPS/blob/master/LICENSE) | Photon PUN2 и Asset Store/Mixamo conditions |
 
 **Публичный GitHub и MIT-код не означают «все ассеты бесплатно и с такими же правами».** [Список исключений](Research_Archive/BLOCKED_DEPENDENCIES_2026_10.md).
+
+
+## Новый этап: free Blender addons, GLB transport, CC0 звуки (2026-10-08)
+| Ресурс | Лицензия и первоисточник | Граница |
+|---|---|---|
+| [Blender Rigify](Tool_Catalog/blender-rigify-free.md) | GPL bundled, [Blender Manual](https://docs.blender.org/manual/en/4.5/addons/rigging/rigify/index.html) | GPL для addon, **не автоматически для наших созданных моделей** |
+| [Khronos glTF I/O](Tool_Catalog/khronos-blender-gltf-io.md) | [Apache-2.0](https://github.com/KhronosGroup/glTF-Blender-IO/blob/main/LICENSE.txt) | Blender bundled, экспортируемые чужие meshes остаются по своей лицензии |
+| [Unity glTFast](Tool_Catalog/unity-gltfast.md) | [Apache-2.0](https://github.com/Unity-Technologies/com.unity.cloud.gltfast/blob/main/LICENSE.md) | Third Party Notices: тестовые модели в репо могут требовать CC-BY атрибуцию |
+| [Ucupaint](Tool_Catalog/ucupaint-blender-free.md) | [GPL-3.0+](https://github.com/ucupumar/ucupaint/blob/master/COPYING) | Права на исходные импортируемые изображения отдельно |
+| [TexTools](Tool_Catalog/textools-blender-free.md) | [GPLv3+](https://github.com/franMarz/TexTools-Blender/blob/master/LICENSE.txt) | Пользовательские artwork assets не становятся GPL автоматически |
+| [ambientCG](Tool_Catalog/ambientcg-cc0.md) | [CC0](https://ambientcg.com/) | Downloadable assets, не права на торговую марку |
+| [Kenney 5 аудионаборов](14_Audio/FREE_SOUND_PIPELINE.md) | [CC0 отдельно в каждой карточке](https://kenney.nl/assets/ui-audio) | Не превращать все чужие интернет-аудиофайлы в CC0 |
+
+**Все являются бесплатными путями с указанными правами, но real Unity/Blender editor tests = 0.** Стоимость дополнительной установки 0 ₽, платный All-in-1 Kenney не используется.

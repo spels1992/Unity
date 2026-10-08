@@ -92,3 +92,25 @@
 | Armour Multiplayer-FPS | Networked FPS reference | MIT root; Photon/Asset Store restrictions | 2022.3.55f1 | [Открыть](armour-multiplayer-fps.md) |
 
 [Сравнение и выбор](../Comparisons/VEHICLES_SURVIVAL_BUILDING_FPS_2026.md) · [Как работать и искать правильно](../01_Game_Development_Pipeline/RESEARCH_METHOD_ZERO_COST.md).
+
+
+## Blender ↔ Unity glTF, UV, Rigging, PBR — бесплатные инструменты
+| Решение | Назначение | Лицензия | Примечание | Карточка |
+|---|---|---|---|---|
+| Rigify | Автоматизированный rig | GPL в Blender | Deform skeleton/animation bake для Unity | [Открыть](blender-rigify-free.md) |
+| Khronos glTF Blender I/O | Импорт/экспорт GLB | Apache-2.0 | Blender bundled addon | [Открыть](khronos-blender-gltf-io.md) |
+| Unity glTFast | Editor/runtime GLB import/export | Apache-2.0 | Не ставить preview в production без теста | [Открыть](unity-gltfast.md) |
+| Ucupaint | Послойная текстурная живопись | GPLv3+ | Blender min 4.2; bake для Unity | [Открыть](ucupaint-blender-free.md) |
+| TexTools | UV/texel density/texture baking | GPLv3+ | Blender 5.x не проверен | [Открыть](textools-blender-free.md) |
+| ambientCG | PBR CC0 textures | CC0 assets | Не перепутать texture channel conventions | [Открыть](ambientcg-cc0.md) |
+
+## Kenney — отдельные бесплатные CC0 аудионаборы
+| Набор | Файлы | Готовая тематика | Карточка |
+|---|---:|---|---|
+| UI Audio | 50 | UI click/button/switch | [Открыть](kenney-ui-audio.md) |
+| Impact Sounds | 130 | Столкновения/удары | [Открыть](kenney-impact-sounds.md) |
+| RPG Audio | 50 | RPG шаги/экипировка/эффекты | [Открыть](kenney-rpg-audio.md) |
+| Sci-fi Sounds | 70 | Космические двигатели/лазеры | [Открыть](kenney-sci-fi-sounds.md) |
+| Music Jingles | 85 | Короткие победные музыкальные темы | [Открыть](kenney-music-jingles.md) |
+
+**Всего: 385 аудиофайлов по официальным страницам, все пять наборов CC0.** Это не равно полной готовой аудиосистеме. [Аудиопайплайн](../14_Audio/FREE_SOUND_PIPELINE.md) и [3D-пайплайн](../18_Blender_Integration/FREE_GLTF_RIG_UV_PRODUCTION.md).
