@@ -22,6 +22,9 @@
 - [docs/04-repository-and-toolchain.md](docs/04-repository-and-toolchain.md) — Git и структура настоящего Unity-проекта.
 - [docs/05-unity-architecture.md](docs/05-unity-architecture.md) — сцены, префабы и сериализация.
 - [docs/06-csharp-architecture.md](docs/06-csharp-architecture.md) — C#, события, асинхронность и организация кода.
+- [docs/07-gameplay-and-systems.md](docs/07-gameplay-and-systems.md) — игровая петля, состояния, баланс и тесты.
+- [docs/08-2d-development.md](docs/08-2d-development.md) — спрайты, 2D Physics, свет и сцена.
+- [docs/09-3d-development.md](docs/09-3d-development.md) — 3D-пайплайн, физика, материалы и рендер.
 - [docs/17-packages-and-libraries.md](docs/17-packages-and-libraries.md) — стартовый каталог пакетов и критерии отбора.
 
 > Это начальные редакции нескольких глав, а не заявление о том, что все темы полностью исследованы. Пробелы и следующий порядок — в ROADMAP и RESEARCH_LOG.
