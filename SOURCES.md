@@ -51,3 +51,22 @@
 | [Unity 6.3 model format](https://docs.unity.com/en-us/engine/6000.3/manual/assets-and-media/asset-types/models/creating-dccassets/3d-formats) | FBX recommended; .blend importer depends on installed Blender |
 | [Blender file Import/Export](https://docs.blender.org/manual/en/latest/files/import_export/index.html) | FBX/glTF export tools |
 | [Blender license](https://www.blender.org/about/license/) | GPL tool does not auto-license artwork under GPL |
+
+
+## Системы Unity: подтверждения лицензий и версий (08.10.2026)
+| Первоисточник | Факт |
+|---|---|
+| [OpenEmpires README](https://github.com/Chilly5/OpenEmpires) | Unity 6 RTS, Rust relay PostgreSQL, 1–4v4, source |
+| [OpenEmpires ProjectVersion](https://github.com/Chilly5/OpenEmpires/blob/main/Open%20Empires/ProjectSettings/ProjectVersion.txt) | Фактически 6000.5.9f1, несмотря на README 6000.3.9f1 |
+| [Moonforge UPM](https://github.com/3583Bytes/moonforge-rpg-engine/blob/main/unity-packages/com.moonforge.core/package.json) | com.moonforge.core 1.2.0, Unity 2022.3+ |
+| [Yarn Spinner UPM](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/package.json) | dev.yarnspinner.unity 3.2.8, Unity 2022.3+ |
+| [Yarn Spinner install](https://docs.yarnspinner.dev/yarn-spinner-for-unity/installation-and-setup) | Бесплатная установка Git URL #current, платные магазины опционально |
+| [Ink Unity README](https://github.com/inkle/ink-unity-integration) | Unity 2022.3+ для Ink 2.0, Git #upm; demo и story API |
+| [OpenKCC package](https://github.com/nicholas-maltbie/OpenKCC/blob/main/Packages/com.nickmaltbie.openkcc/package.json) | UPM 1.5.0, Unity 2019.4 min |
+| [EZRoom UPM](https://github.com/jastrz/EZRoomGenerator/blob/main/package.json) | 0.1.0, Unity 6000.0+, FBX Exporter 5.1.5 declared |
+| [Edgar Free README](https://github.com/OndrejNepozitek/Edgar-Unity) | Бесплатное ядро vs PRO-only features; UPM #upm |
+| [Game Lattice UPM](https://github.com/Toxic-Cookie/game-lattice/blob/main/packaging/unity/upm/package.json) | 0.0.0-dev, Unity 2021.2+, Apache-2.0 |
+| [Game Lattice Playground](https://github.com/Toxic-Cookie/game-lattice-unity-example) | Unity6000.4, nine lessons, Microsoft.CSharp.dll CS1703 known conflict |
+| [Unity Modular Inventory](https://github.com/usmanbutt-dev/UnityModularInventorySystem) | Demo, Unity6000.0.50f1, saving/equipment TODO |
+| [Softlight](https://github.com/Ziad-Amr1/softlight) | Unity6000.3.7f1, early dev, quests/inventory planned |
+| [Unity simple FPS Controller](https://github.com/yahiawork/The-First-Person-Controller-Unity-6) | MIT, classic Input Manager, no Unity ProjectVersion |

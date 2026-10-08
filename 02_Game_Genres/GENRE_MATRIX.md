@@ -39,3 +39,19 @@
 | Water racing | Boat Attack legacy | Требуется портирование; [reference](../Comparisons/COMPLETE_FREE_PROJECTS.md) |
 
 Это **не завершённая жанровая матрица**: здесь несколько проверенных по источникам решений, ещё нет сборок на целевых платформах.
+
+
+## Современные бесплатные проекты и решения по жанрам (08.10.2026)
+| Жанр | Готовые системы, ссылки на единственную карточку | Статус |
+|---|---|---|
+| RTS | [OpenEmpires](../Tool_Catalog/open-empires-rts.md): полноценная Unity 6 игра | MIT, исходники; PlayMode не тестировался |
+| Turn-based RPG / JRPG | [Moonforge](../Tool_Catalog/moonforge-rpg-engine.md), [Game Lattice](../Tool_Catalog/game-lattice-rpg.md) | Альтернативные RPG engines; решение о выборе впереди |
+| Visual novel / Dialogue / Narrative RPG | [Yarn Spinner](../Tool_Catalog/yarn-spinner-unity.md) или [Ink](../Tool_Catalog/ink-unity-integration.md) | MIT, скачать из Git без покупки |
+| 2D Roguelike / Dungeon | [Edgar Free](../Tool_Catalog/edgar-unity-free.md) | MIT free core, PRO недоступен |
+| 3D Dungeon / FPS / Survival | [EZRoomGenerator](../Tool_Catalog/ezroomgenerator.md) | MIT, Unity 6 demo, тест требуется |
+| TPS, 3D Adventure | [OpenKCC](../Tool_Catalog/openkcc-controller.md) | MIT, новая Unity не проверена |
+| Survival / RPG Inventory | [Unity Modular Inventory](../Tool_Catalog/unity-modular-inventory.md) | MIT, drag-drop/stack, save not yet |
+| Cozy 2D RPG | [Softlight](../Tool_Catalog/softlight-unity6-rpg.md) | Ранний проект, quests/combat/inventory TODO |
+| FPS standalone controller | [Simple FPS Controller](../Tool_Catalog/simple-fps-controller-unity6-mit.md) | MIT, классический Input Manager |
+
+Не считать готовую demo-сцену полной игрой, пока не выполнена проверка gameplay и поставка.

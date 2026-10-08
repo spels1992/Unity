@@ -39,3 +39,20 @@
 | [BOAT-RACING-REFERENCE](21_Compatible_Stacks/FREE_STACKS.md) | Boat Attack + Water | LEGACY: Unity 2019 demo, Unity 6 не подтверждена |
 
 **В нашей базе значение VERIFIED = 0** до живых tests/build на целевой машине. Ссылки на package версии не заменяют результаты тестов.
+
+
+## Фреймворки Unity 6: проверка README против исходной конфигурации
+| Система | Upstream evidence | Статус интеграции у нас |
+|---|---|---|
+| [OpenEmpires](Tool_Catalog/open-empires-rts.md) | README 6000.3.9f1; фактический ProjectVersion.txt = **6000.5.9f1** | DOC-конфликт; build UNKNOWN |
+| [Moonforge](Tool_Catalog/moonforge-rpg-engine.md) | UPM 1.2.0, Unity 2022.3+ | UNKNOWN на 6000.3 |
+| [Yarn Spinner](Tool_Catalog/yarn-spinner-unity.md) | 3.2.8 UPM / 2022.3+ | UNKNOWN на 6000.3 |
+| [Ink](Tool_Catalog/ink-unity-integration.md) | 2.0.0 UPM / 2022.3+ | UNKNOWN на 6000.3 |
+| [Game Lattice](Tool_Catalog/game-lattice-rpg.md) | 0.0.0-dev UPM / 2021.2+; example ProjectVersion 6000.4.11f1 | DOC package, no Player test |
+| [Softlight](Tool_Catalog/softlight-unity6-rpg.md) | ProjectVersion.txt 6000.3.7f1 | DOC only, early prototype |
+| [Unity Modular Inventory](Tool_Catalog/unity-modular-inventory.md) | ProjectVersion.txt 6000.0.50f1 | DOC only, newer variants unknown |
+| [EZ Room](Tool_Catalog/ezroomgenerator.md) | 0.1.0 UPM Unity 6000.0+, FBX Exporter 5.1.5 declared | DOC, integration dependency needs test |
+| [Edgar Free](Tool_Catalog/edgar-unity-free.md) | 2.1.0 UPM Unity 2019.3+; PRO features paid | DOC only; newer Unity unknown |
+| [OpenKCC](Tool_Catalog/openkcc-controller.md) | 1.5.0 UPM Unity 2019.4+, development last 2023 | Unity 6 unknown |
+
+**VERIFIED still equals zero**: source code/README/manifest checks do not mean runtime compatibility.

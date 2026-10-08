@@ -52,3 +52,22 @@
 | Unity Boat Attack | Complete project / subsystem | README указывает release/2019.3 и Unity 2019.3f5, другие branch проверять по ProjectVersion.txt; Unity Companion License (проверено LICENSE.md) | [boat-attack-urp-demo](boat-attack-urp-demo.md) |
 | Unity Boat Attack Water | Complete project / subsystem | Unity 6 совместимость в README не подтверждена; версию пакета смотреть в package.json; Unity Companion License по LICENSE.md upstream | [boat-attack-water](boat-attack-water.md) |
 [Сравнение](../Comparisons/COMPLETE_FREE_PROJECTS.md).
+
+
+## Готовые бесплатные Unity 6 и кросс-версийные игровые системы (08.10.2026)
+| Система | Назначение | Подтверждение бесплатности | Unity | Карточка |
+|---|---|---|---|---|
+| OpenEmpires | RTS целая игра | MIT; Editor версия README ≠ ProjectVersion | 6000.5.9f1 в ProjectVersion | [Основная](open-empires-rts.md) |
+| Moonforge RPG Engine | RPG core: quest/combat/loot/save | MIT, бесплатный UPM | UPM Unity 2022.3+ | [Основная](moonforge-rpg-engine.md) |
+| Yarn Spinner for Unity | Диалоги/визуальные новеллы | MIT Git бесплатно; Asset Store/Itch платные | 3.2.8, Unity 2022.3+ | [Основная](yarn-spinner-unity.md) |
+| Ink Unity Integration | Нарратив и диалоги | MIT Git бесплатно | 2.0.0, Unity 2022.3+ | [Основная](ink-unity-integration.md) |
+| OpenKCC | Kinematic controller | MIT; upstream last push 2023 | package 1.5.0, Unity 2019.4+ (6 не тест) | [Основная](openkcc-controller.md) |
+| EZ Room Generator | 3D генератор лабиринтов | MIT | 0.1.0, Unity 6000+ | [Основная](ezroomgenerator.md) |
+| Edgar Free Core | 2D графовый dungeon generator | MIT free core; PRO платный | 2.1.0, минимальная Unity 2019.3 | [Основная](edgar-unity-free.md) |
+| Game Lattice | Большой RPG+NPC AI framework | Apache-2.0; UPM 0.0.0-dev | Unity 2021.2+; пример 6000.4 | [Основная](game-lattice-rpg.md) |
+| Game Lattice Playground | Готовая учебная RPG песочница | Apache-2.0 | Unity 6000.4.11f1 | [Основная](game-lattice-unity-playground.md) |
+| Unity Modular Inventory | Инвентарь drag/drop | MIT, assets Kenney separately | Unity 6000.0.50f1 | [Основная](unity-modular-inventory.md) |
+| Softlight | 2D top-down RPG prototype | MIT, incomplete | Unity 6000.3.7f1 | [Основная](softlight-unity6-rpg.md) |
+| Unity FPS Controller | Базовый FPS контроллер | MIT, старый Input Manager | Unity 6, exact Editor неизвестна | [Основная](simple-fps-controller-unity6-mit.md) |
+
+[Сравнение комплексных бесплатных фреймворков](../Comparisons/FREE_FRAMEWORKS_2026.md) · [Отклонённые/неподтверждённые лицензии](../Research_Archive/REJECTED_OR_BLOCKED_LICENSE.md).

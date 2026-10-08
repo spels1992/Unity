@@ -74,3 +74,9 @@
 - [Бесплатный Blender → Unity pipeline](18_Blender_Integration/FREE_ASSET_PIPELINE.md): FBX, rig, материалы, Prefab, тесты.
 - [Бесплатные законченные игровые примеры](Comparisons/COMPLETE_FREE_PROJECTS.md): Chop Chop и Boat Attack — для изучения, версии устарели.
 - [Provenance лицензий каждого ассета](Integration_Guides/FREE_ASSET_LICENSE_LOG.md).
+
+
+## Комплексные бесплатные игровые фреймворки — 2026-10-08
+- [Сравнение 12 систем](Comparisons/FREE_FRAMEWORKS_2026.md): от целой RTS [OpenEmpires](Tool_Catalog/open-empires-rts.md) до [Moonforge RPG](Tool_Catalog/moonforge-rpg-engine.md), [Game Lattice](Tool_Catalog/game-lattice-rpg.md), Ink/Yarn диалогов и 2D/3D dungeon generators.
+- [Лицензии, которые пока не позволяют рекомендовать кандидата](Research_Archive/REJECTED_OR_BLOCKED_LICENSE.md).
+- **Все решения по документации, не тестировались в Unity.** Не смешивать несколько крупных frameworks, если они дублируют ownership inventory/combat/dialogue/save/input.

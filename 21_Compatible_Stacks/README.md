@@ -14,3 +14,13 @@
 **Статус:** каталог направления ещё не заполнен полностью; см. [ROADMAP](../ROADMAP.md).
 ## Готовые бесплатные сочетания
 [FREE_STACKS.md](FREE_STACKS.md): 2D платформер, 3D-RPG exploration, Sci-fi FPS/exploration, Boat Racing reference. Все ASSUMED, без заявлений о практической проверке.
+
+
+## Новые framework-first варианты (план тестирования)
+- [OpenEmpires](../Tool_Catalog/open-empires-rts.md) использовать как **цельный RTS**. Rust/PostgreSQL бесплатно локально; не нужна дополнительная Mirror/FishNet network core.
+- [Moonforge](../Tool_Catalog/moonforge-rpg-engine.md) или [Game Lattice](../Tool_Catalog/game-lattice-rpg.md) — выбирать **один** авторитетный RPG core, не два.
+- [Yarn Spinner Git](../Tool_Catalog/yarn-spinner-unity.md) ИЛИ [Ink](../Tool_Catalog/ink-unity-integration.md) — выбирать одно решение для dialog, если RPG framework не предоставляет достаточное.
+- [Unity Modular Inventory](../Tool_Catalog/unity-modular-inventory.md) добавлять отдельно лишь при отсутствии встроенного инвентаря.
+- [EZ Room](../Tool_Catalog/ezroomgenerator.md) для 3D, [Edgar Free](../Tool_Catalog/edgar-unity-free.md) для 2D, в разных игровых стэках.
+
+[Полное сравнение систем](../Comparisons/FREE_FRAMEWORKS_2026.md). **Совместимость предположительная**.

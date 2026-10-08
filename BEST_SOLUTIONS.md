@@ -28,3 +28,17 @@
 | Sci-fi окружение | [Quaternius Modular Sci-Fi MegaKit](Tool_Catalog/quaternius-modular-sci-fi-megakit.md) | CC0 Standard | Бесплатная часть ≠ готовая Unity сцена |
 
 **Бесплатные совместимые стеки пока только на уровне кандидатов**: [FREE_STACKS.md](21_Compatible_Stacks/FREE_STACKS.md). Ни один не проходил live-тест в Unity Editor.
+
+
+## Бесплатные решения, закрывающие сразу несколько задач (источники 08.10.2026)
+| Для чего | Приоритетный кандидат | Цена | Статус |
+|---|---|---|---|
+| RTS целиком | [OpenEmpires](Tool_Catalog/open-empires-rts.md) | MIT, локально бесплатно | Версия Unity README/ProjectVersion различается, нужен тест |
+| Turn-based RPG core | [Moonforge](Tool_Catalog/moonforge-rpg-engine.md) | MIT, бесплатно | Unity 2022.3+ package, Unity6 тест нужен |
+| Data-driven RPG/NPC AI | [Game Lattice](Tool_Catalog/game-lattice-rpg.md) | Apache-2.0, бесплатно | Unity 6000.4 playground, dev package v0.0.0 |
+| Диалоги / Visual novel | [Yarn Spinner Git](Tool_Catalog/yarn-spinner-unity.md) ИЛИ [Ink](Tool_Catalog/ink-unity-integration.md) | MIT, бесплатные Git UPM | Не устанавливать два без необходимости |
+| Инвентарь без full RPG | [Unity Modular Inventory](Tool_Catalog/unity-modular-inventory.md) | MIT, бесплатно | PlayMode/Build теста нет, Save не готов |
+| 3D процедурные комнаты | [EZ Room Generator](Tool_Catalog/ezroomgenerator.md) | MIT, бесплатно | 0.1.0 Unity 6000+; FBX Exporter dependency |
+| 2D dungeon | [Edgar Free](Tool_Catalog/edgar-unity-free.md) | MIT core, бесплатно | PRO функции платные/исключены |
+
+[Подробная сравнительная матрица](Comparisons/FREE_FRAMEWORKS_2026.md).

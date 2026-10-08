@@ -37,3 +37,20 @@
 | [Boat Attack Water](Tool_Catalog/boat-attack-water.md) | [Unity Companion](https://github.com/Unity-Technologies/boat-attack-water/blob/master/LICENSE.md) | Source: 0 ₽ | Совместимость Unity 6 не установлена |
 
 **Все решения, реально используемые в проекте, должны иметь нулевую дополнительную стоимость.** Условия доступа к бесплатным assets и продуктам могут измениться, проверять перед скачиванием.
+
+
+## Права комплексных решений, подтверждённые в GitHub (08.10.2026)
+| Инструмент | License доказательство | Статус |
+|---|---|---|
+| [OpenEmpires](Tool_Catalog/open-empires-rts.md) | [MIT](https://github.com/Chilly5/OpenEmpires/blob/main/LICENSE) | Можно изучать и использовать исходники при сохранении notices; содержимое ассетов — отдельно |
+| [Moonforge](Tool_Catalog/moonforge-rpg-engine.md) | [MIT](https://github.com/3583Bytes/moonforge-rpg-engine/blob/main/LICENSE) | Встроенный UPM LICENSE тоже MIT |
+| [Yarn Spinner Unity](Tool_Catalog/yarn-spinner-unity.md) | [MIT](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/LICENSE.md) | Git бесплатен; Asset Store/Itch платные пакеты не нужны |
+| [Ink Unity](Tool_Catalog/ink-unity-integration.md) | [MIT text](https://github.com/inkle/ink-unity-integration/blob/master/LICENCE.md) | GitHub metadata NOASSERTION, лицензию смотреть прямо в LICENCE.md |
+| [OpenKCC](Tool_Catalog/openkcc-controller.md) | [MIT](https://github.com/nicholas-maltbie/OpenKCC/blob/main/LICENSE.txt) | Sample assets/третьи лица отдельно |
+| [EZ Room Generator](Tool_Catalog/ezroomgenerator.md) | [MIT](https://github.com/jastrz/EZRoomGenerator/blob/main/LICENSE) | 0 ₽, UPM dependency requires verify |
+| [Edgar Free](Tool_Catalog/edgar-unity-free.md) | [MIT](https://github.com/OndrejNepozitek/Edgar-Unity/blob/master/LICENSE) | PRO платный и запрещён к использованию |
+| [Game Lattice + sample](Tool_Catalog/game-lattice-rpg.md) | [Apache-2.0](https://github.com/Toxic-Cookie/game-lattice/blob/main/LICENSE) | Licensed core, precompiled package third-party checking |
+| [Unity Modular Inventory](Tool_Catalog/unity-modular-inventory.md) | [MIT](https://github.com/usmanbutt-dev/UnityModularInventorySystem/blob/main/LICENSE) | Kenney assets retain separate license notices |
+| [Softlight](Tool_Catalog/softlight-unity6-rpg.md) | [MIT](https://github.com/Ziad-Amr1/softlight/blob/main/LICENSE) | Провести аудит art/audio assets |
+| [Unity simple FPS controller](Tool_Catalog/simple-fps-controller-unity6-mit.md) | [MIT](https://github.com/yahiawork/The-First-Person-Controller-Unity-6/blob/main/LICENSE) | Small code set; не готовая игра |
+| wendtcloud inventory | [README](https://github.com/wendtcloud/inventory-system) | **BLOCKED_LICENSE_PENDING**: нет файла LICENSE в GitHub tree; не включать как рекомендуемый инструмент |
