@@ -146,3 +146,29 @@
 - Начать бесплатный каталог инструментов Blender: geometry nodes, retargeting, lip-sync, free HDRI/foliage, auto LOD (после лицензий), аудиомузыка CC0.
 - Исследовать бесплатные собственные voice/sound/music creation workflows без оплаченных внешних API.
 - Нулевой бюджет обязателен; никакие чужие большие ZIP, fonts или samples в нашу базу GitHub не загружены.
+
+
+## 2026-10-09 — бесплатные деревья/Geometry Nodes/LOD, Retarget, Lipsync и CC0 BGM
+
+**Доказанные результаты, сохранённые в GitHub:**
+1. [66b3cbf](https://github.com/spels1992/Unity/commit/66b3cbfc51273f15397e9e535b6f0d11b04be287) — **13 новых canonical карточек**: Geometry Nodes, Decimate, Sapling Tree, YGForge Generate Tree, Modular Tree, KBS Retarget, Rokoko retarget, Rhubarb Lip Sync NG и CLI, четыре отдельных CC0 музыкальных набора.
+2. [5512992](https://github.com/spels1992/Unity/commit/55129922f8409e9384ab83d9d92454d89f27b3dd) — четыре инструкции: free forest & LOD workflow, retarget + lipsync workflow, CC0 game music list, quick comparison.
+3. [573f73c](https://github.com/spels1992/Unity/commit/573f73c2a0f031f5a223a71c58697814e5deeb41) — обновлены README, Tool Catalog index, Blender/Animation/Audio section READMEs, BEST_SOLUTIONS, LICENSE_MATRIX, COMPATIBILITY_MATRIX, SOURCES.
+
+**GitHub QA перед этим checkpoint:** 149 файлов, **74 карточки решений** (кроме INDEX/CARD_TEMPLATE), все **13 новых присутствуют**; 354 внутренние Markdown-ссылки в 14 ключевых документах проверены — **0 broken**, ошибок чтения нет.
+
+**Особенно полезно и важно:**
+- [Blender Geometry Nodes](Tool_Catalog/blender-geometry-nodes-free.md) — бесплатно встроенный scattering, но Blender procedural instance graph нельзя просто импортировать в Unity.
+- [Decimate](Tool_Catalog/blender-decimate-lod-free.md) — встроенное уменьшение геометрии для LOD, но silhouette/UV/rig обязательно проверять.
+- [Sapling Tree](Tool_Catalog/blender-sapling-tree.md) v0.3.7 с заявленной Blender4.4+, но reports об ошибках дерева/анимации на Blender5; [YGForge](Tool_Catalog/blender-lowpoly-tree-generator.md) 1.1.5 Blender5.0.1+, [Modular Tree](Tool_Catalog/blender-modular-tree.md) 5.5.2 Blender4.3.1+.
+- [KBS Retarget](Tool_Catalog/blender-retarget-kbs.md) Blender5+ GPL для Mixamo/Unreal/VRoid/MMD; [Rokoko](Tool_Catalog/blender-rokoko-retarget.md) free retarget LGPL-3.0 (**README MIT badge неправилен**), подписка/оборудование не нужны для обычного retarget.
+- [Rhubarb NG](Tool_Catalog/rhubarb-lip-sync-ng-blender.md) бесплатный MIT инструмент, поддерживаемый [Rhubarb CLI](Tool_Catalog/rhubarb-cli-open-source.md); русский голос нужно проверить, Rhubarb не является TTS.
+- OpenGameArt CC0 конкретные 4 авторские страницы: SubspaceAudio 12, pauliuw 4, qubodup 2 + drakzlin 5 тематических ZIP (количество треков в архивах неизвестно). Итого **18 подтверждённых отдельных композиций минимум**, не считать все ZIP как 5 дополнительных дорожек.
+
+**Проверки в наших Unity/Blender Editor:** НЕ ПРОВОДИЛИСЬ. Все новые карточки = DOCUMENTED / NOT_RUN; FPS, audio quality и MIDI/skin/morph export не заявлять проверенными. Не загружали чужие ZIP/ассеты и не выполняли платных API вызовов. Правило 0 ₽ сохраняется.
+
+### Следующие приоритеты
+- Локально протестировать free Blender foliage generator/geometry nodes export → Unity6 LODGroup, не трогая существующие сцены; сравнить GLB vs FBX.
+- Изучить бесплатно скачиваемые **полноценные** музыкальные библиотеки по жанрам с точными лицензиями каждого файла, а также открытые DAW (LMMS/Audacity/MuseScore) и условия их bundled samples.
+- Проверить офлайн lip-sync для русской тестовой фразы и экспорт Blender Morph Targets → Unity; оценить редактор/voice input permissions.
+- Продолжить заполнение редких жанров: RTS/FPS/survival/colony/racing и Unity6 project ready.
