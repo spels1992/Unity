@@ -121,3 +121,28 @@
 - World/city: раздельные модули жителей, дорог, транспорта, экономики, зон и коллизий.
 - Продолжить пополнять остальные жанры и Blender каталог бесплатных арт-инструментов.
 - **Никаких дополнительных расходов**, подписок, платных ассетов, API и обязательных облачных серверов.
+
+
+## Контрольная точка 2026-10-08 — Blender → Unity, PBR/UV/Rigging, игровые звуки
+
+**3 подтверждённых GitHub коммита текущего блока до этого журнала:**
+1. [8043a45](https://github.com/spels1992/Unity/commit/8043a45750439cfdc736812d36470f460fc2276f) — 10 карточек: Rigify, Khronos glTF Blender I/O, Unity glTFast, Ucupaint, TexTools, ambientCG, Kenney UI/Impact/RPG/Music Audio.
+2. [dbf8759](https://github.com/spels1992/Unity/commit/dbf8759ee1a55da852005da5dc1d73d30664100e) — одиннадцатая карточка Kenney Sci-fi Sounds + новый 3D production guide, audio workflow и сравнение.
+3. [6c39622](https://github.com/spels1992/Unity/commit/6c396223608923e6b8e69eabd71e857d113ae810) — обновлены индекс всех решений, Blender/Audio README, главные README/BEST_SOLUTIONS/LICENSE_MATRIX/COMPATIBILITY_MATRIX/SOURCES.
+
+**Фактическая проверка GitHub main до этого checkpoint:** 131 Markdown/других файлов, **60 канонических карточек** (исключая INDEX/CARD_TEMPLATE), из них **11 новых**; все 11 присутствуют. Проверено **299 внутренних относительных Markdown-ссылок** в 14 основных документах: **0 broken, 0 read failures**.
+
+### Что найдено
+- **Бесплатная GLB/FBX развилка:** Blender Khronos glTF 2.0 I/O встроен в Blender (Apache-2.0), Unity glTFast (Apache-2.0) даёт Editor/runtime import/export. `Packages/com.unity.cloud.gltfast/package.json` main = `6.20.1-pre.1` минимум `6000.0`; брать **stable Registry** package, а не preview по умолчанию. Third Party Notices содержит CC-BY тестовые модели; не копировать чужие sample assets без атрибуции.
+- **Rigify** (bundled GPL) для генерации 3D character control rig, **TexTools** (GPLv3+) для UV/texel density, **Ucupaint** (manifest 3.0.0, Blender min 4.2, GPL-3.0+) для текстурных слоёв. Процедурные Blender shaders/controls необходимо запекать для Unity.
+- **ambientCG** CC0 PBR текстуры дополняют Poly Haven.
+- **Kenney CC0 audio:** UI 50 + Impact 130 + RPG 50 + Sci-fi 70 + Music Jingles 85 = **385 файлов по пяти официальным страницам**. Каждый pack бесплатен отдельно без платного All-in-1.
+- Руководство [Blender → Rigify/UV/PBR → glTFast/FBX → Unity](18_Blender_Integration/FREE_GLTF_RIG_UV_PRODUCTION.md), [Audio SFX → AudioSource/Mixer → Player Build](14_Audio/FREE_SOUND_PIPELINE.md), [Сравнение](Comparisons/FREE_BLENDER_TEXTURE_AUDIO_GLTF.md).
+
+### Ограничения и следующая очередь
+- Не было live Unity Editor / Blender test, Player Build, Audio playback или blender_bridge; **TESTED/VERIFIED = 0 для этого блока**.
+- Восстановить URL/status стабильных версий glTFast для установленного Editor, проверить glTFast shader graph variants в Player Build.
+- В отдельном тестовом проекте сравнить GLB vs FBX для CC0 персонажа с анимацией.
+- Начать бесплатный каталог инструментов Blender: geometry nodes, retargeting, lip-sync, free HDRI/foliage, auto LOD (после лицензий), аудиомузыка CC0.
+- Исследовать бесплатные собственные voice/sound/music creation workflows без оплаченных внешних API.
+- Нулевой бюджет обязателен; никакие чужие большие ZIP, fonts или samples в нашу базу GitHub не загружены.

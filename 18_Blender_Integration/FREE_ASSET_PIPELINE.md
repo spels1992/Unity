@@ -69,3 +69,14 @@ Blender поддерживает FBX экспорт (и glTF/GLB), см. https:/
 
 ## Открытые вопросы
 Точные настройки экспорта FBX для каждой версии Blender/Unity, масштаб и fallback glTFast (проверить лицензию), оптимальные импортеры больших сцен и batch pipeline, сравнение Blend vs FBX рендеринга на целевой видеокарте.
+
+
+## Проверенное продолжение 2026-10-08: альтернатива FBX — GLB + Unity glTFast
+
+Ранее в этом документе GLB импорт был отмечен как неопределённый fallback. Теперь **найдены и документально подтверждены**:
+- [Khronos glTF I/O для Blender](../Tool_Catalog/khronos-blender-gltf-io.md): Apache-2.0, уже bundled в Blender.
+- [Unity glTFast](../Tool_Catalog/unity-gltfast.md): Apache-2.0, официальный бесплатный UPM `com.unity.cloud.gltfast`, Editor/runtime import/export. Upstream `6.20.1-pre.1` main — **preview**, в обычном проекте выбирать stable/совместимый Registry package.
+- [Полный сравнительный план](FREE_GLTF_RIG_UV_PRODUCTION.md) для PBR, UV, baked rig/deform bones, animation clips и Player material shader variants.
+- [Бесплатные UV и текстуры](../Comparisons/FREE_BLENDER_TEXTURE_AUDIO_GLTF.md): Rigify, Ucupaint, TexTools, ambientCG.
+
+**FBX остаётся рекомендуемым без внешних UPM**, а GLB+glTFast — бесплатной альтернативой для стандартизированных PBR материалов. В Unity Editor и Blender **ни один путь пока не испытан в данном исследовании**. Точные экспортные параметры выбираются только после smoke-теста.
