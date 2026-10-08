@@ -14,14 +14,17 @@
 ## Навигация по исследованию
 - [ROADMAP.md](ROADMAP.md) — **полный план, очередность и критерии окончания**.
 - [SOURCES.md](SOURCES.md) — реестр изученных первоисточников, даты, примечания.
+- [RESEARCH_LOG.md](RESEARCH_LOG.md) — журнал фактически сохранённых этапов и проверок.
 - [docs/00-research-method.md](docs/00-research-method.md) — как исследовать и сохранять знания.
 - [docs/01-game-concept.md](docs/01-game-concept.md) — путь от идеи к проверяемой концепции игры.
 - [docs/02-preproduction.md](docs/02-preproduction.md) — GDD, прототип, вертикальный срез.
 - [docs/03-unity-foundations.md](docs/03-unity-foundations.md) — Unity Hub, редактор, лицензия и первый проект.
 - [docs/04-repository-and-toolchain.md](docs/04-repository-and-toolchain.md) — Git и структура настоящего Unity-проекта.
+- [docs/05-unity-architecture.md](docs/05-unity-architecture.md) — сцены, префабы и сериализация.
+- [docs/06-csharp-architecture.md](docs/06-csharp-architecture.md) — C#, события, асинхронность и организация кода.
 - [docs/17-packages-and-libraries.md](docs/17-packages-and-libraries.md) — стартовый каталог пакетов и критерии отбора.
 
-> Ссылки на разделы будут появляться по мере создания файлов. Все незавершённые темы описаны в ROADMAP.
+> Это начальные редакции нескольких глав, а не заявление о том, что все темы полностью исследованы. Пробелы и следующий порядок — в ROADMAP и RESEARCH_LOG.
 
 ## Принцип работы
 1. **Исследование → запись в Markdown → коммит → проверка ссылки → переход к следующему блоку.** Не хранить результаты лишь в переписке.
