@@ -71,3 +71,6 @@
 | Unity FPS Controller | Базовый FPS контроллер | MIT, старый Input Manager | Unity 6, exact Editor неизвестна | [Основная](simple-fps-controller-unity6-mit.md) |
 
 [Сравнение комплексных бесплатных фреймворков](../Comparisons/FREE_FRAMEWORKS_2026.md) · [Отклонённые/неподтверждённые лицензии](../Research_Archive/REJECTED_OR_BLOCKED_LICENSE.md).
+
+
+| [0x72 DungeonTileset II](dungeontileset-ii-0x72.md) | 2D Dungeon / sprites / animations | CC0 авторский источник | Любая Unity Sprite/Tilemap, наш импорт не тестировался | Бесплатно |

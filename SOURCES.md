@@ -75,3 +75,7 @@
 | [Moonforge Unity roguelike sample README](https://github.com/3583Bytes/moonforge-rpg-engine/blob/main/unity-packages/com.moonforge.core/Samples~/Roguelike/README.md) | Import sample, зависимости TMP/Tilemap/Newtonsoft, legacy Input, Town/Dungeon, CC0 claim tileset |
 | [Moonforge main README](https://github.com/3583Bytes/moonforge-rpg-engine) | Точный UPM Git URL with path, целая Unity game sample |
 | [0x72 DungeonTileset II](https://0x72.itch.io/dungeontileset-ii) | Первичный источник для отдельной проверки license bundled art. В upstream LICENSE note по заявленному пути не найден |
+
+
+| [0x72 official DungeonTileset II](https://0x72.itch.io/dungeontileset-ii) | Первоисточник: Download name-your-price, asset license CC0 v1.0, commercial usage |
+| [0x72 author licensing comment](https://itch.io/post/1235897) | Явное коммерческое использование и CC0 без ограничений для оригинального pack |
