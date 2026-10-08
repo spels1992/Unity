@@ -1,5 +1,7 @@
 # UNITY — глобальная библиотека готовых игровых решений
 
+> **ОБЯЗАТЕЛЬНО: 0 ₽ новых расходов.** Используем только законные бесплатные инструменты и ассеты; платные сервисы только изучаем, не внедряем. [Полная политика бесплатности](FREE_ONLY_POLICY.md).
+
 **Главная цель:** ускорять создание игр через **поиск, проверку и законное переиспользование уже существующих решений**. Это каталог инструментов, технологий, starter kits, открытых игровых проектов, комплексных фреймворков и совместимых наборов, а **не** переписанная документация Unity.
 
 **Репозиторий:** [spels1992/Unity](https://github.com/spels1992/Unity) · **связанная библиотека:** [GameLibrary](https://github.com/spels1992/GameLibrary) · **новая концепция с 2026-10-08**.
@@ -21,7 +23,8 @@
 | Поиск инструментов и карточки | [Tool_Catalog/INDEX.md](Tool_Catalog/INDEX.md) |
 | Самые полезные решения | [BEST_SOLUTIONS.md](BEST_SOLUTIONS.md) |
 | Совместимость и готовые связки | [COMPATIBILITY_MATRIX.md](COMPATIBILITY_MATRIX.md), [21_Compatible_Stacks](21_Compatible_Stacks/README.md) |
-| Бесплатность и лицензии | [LICENSE_MATRIX.md](LICENSE_MATRIX.md) |
+| Бесплатность и лицензии | [FREE_ONLY_POLICY.md](FREE_ONLY_POLICY.md), [LICENSE_MATRIX.md](LICENSE_MATRIX.md) |
+| Подходящие плагины и скиллы Unity/Blender | [AVAILABLE_PLUGINS_AND_SKILLS.md](19_AI_Automation/AVAILABLE_PLUGINS_AND_SKILLS.md) |
 | Правила карточки | [Tool_Catalog/CARD_TEMPLATE.md](Tool_Catalog/CARD_TEMPLATE.md) |
 | Глубокое исследование и очередь задач | [ROADMAP.md](ROADMAP.md), [PROGRESS.md](PROGRESS.md) |
 | Проверенные источники | [SOURCES.md](SOURCES.md) |
