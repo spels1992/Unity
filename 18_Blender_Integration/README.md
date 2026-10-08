@@ -12,3 +12,7 @@
 - Какие альтернативы и известные риски, что тестировать перед производством?
 
 **Статус:** каталог направления ещё не заполнен полностью; см. [ROADMAP](../ROADMAP.md).
+## Бесплатный практический маршрут
+[FREE_ASSET_PIPELINE.md](FREE_ASSET_PIPELINE.md) — лицензированные CC0 ассеты → Blender → FBX → Unity → prefab/rig/PlayMode/Build. Бесплатные модели: [Poly Haven](../Tool_Catalog/poly-haven.md), [Kenney](../Tool_Catalog/kenney-free-assets.md), [Quaternius](../Tool_Catalog/quaternius-free-assets.md).
+
+[Provenance/лицензия каждого файла](../Integration_Guides/FREE_ASSET_LICENSE_LOG.md).
