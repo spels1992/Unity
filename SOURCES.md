@@ -74,3 +74,16 @@
 - Отдельным списком записывать проверенные противоречия, устаревшие советы и неработающие примеры.
 
 **Оговорка:** конкретные live-тесты Unity на машине в этом исследовательском сеансе не производились.
+
+## Физика, игровой процесс, 2D и 3D
+| ID | Источник | Класс | Назначение |
+|---|---|---|---|
+| G01 | [Time.deltaTime (6.3)](https://docs.unity.com/en-us/engine/6000.3/script-reference/unityengine/time/deltatime) | A | Длительность кадра, timeScale и pause |
+| G02 | [2D workflow (6.3)](https://docs.unity.com/en-us/engine/6000.3/manual/unity2d/2d-game-development/2d-game-creation-wokflow) | A | Очерёдность 2D разработки |
+| G03 | [Physics2D](https://docs.unity.com/en-us/engine/6000.0/manual/unity2d/2d-physics) | A | Rigidbody2D, Collider2D, joints |
+| G04 | [2D light (URP)](https://docs.unity.com/en-us/engine/6000.3/manual/unity2d/2d-urp/2d-index/lights-2d-intro) | A | Spot/Sprite/Freeform/Global, отличие от 3D |
+| G05 | [URP rendering](https://docs.unity.com/en-us/engine/6000.3/manual/render-pipelines/universal-render-pipeline/introduction/urp-concepts/rendering-in-universalrp) | A | 2D/Universal Renderer, camera loop |
+| G06 | [Physics integrations](https://docs.unity.com/en-us/engine/6000.3/manual/physics-section/physics-integrations) | A | PhysX (3D), Box2D (2D), DOTS |
+| G07 | [Introduction to collision](https://docs.unity.com/en-us/engine/6000.3/manual/physics-section/physics-overview/collision-section/colliders-overview) | A | Collider, Rigidbody, trigger |
+| G08 | [Built-in 3D physics](https://docs.unity.com/en-us/engine/6000.0/manual/physics-section/physics-overview) | A | Стандартная 3D физика Unity |
+| G09 | [Render pipelines compared (6.3)](https://docs.unity.com/en-us/engine/6000.3/manual/render-pipelines/choose-a-render-pipeline/feature-comparison) | A | URP/HDRP/Built-in и ограничения платформ |
