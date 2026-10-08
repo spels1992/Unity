@@ -138,3 +138,7 @@
 | drakzlin Music Loops | Action/battle/horror/chiptune | Не подсчитано, 5 ZIP | CC0 | [Открыть](music-opengameart-drakzlin-loops.md) |
 
 [Лес/LOD](../18_Blender_Integration/FREE_FOLIAGE_LOD_PIPELINE.md) · [Анимация/губы](../05_Animation/FREE_RETARGET_LIPSYNC_PIPELINE.md) · [Музыкальные подборки](../14_Audio/FREE_CC0_MUSIC_COLLECTION.md).
+
+
+## Бесплатные офлайн-инструменты создания музыки (2026-10-08)
+- [MuseScore Studio 4.7.5](musescore-studio-free.md) — партитуры, MIDI, WAV; GPL-3.0; DOCUMENTED/NOT_RUN.
