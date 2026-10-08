@@ -29,3 +29,13 @@
 | First Person + Third Person Controller | Asset Store 2.0.1 (17.09.2026) | Free Asset | DOC URP 6000.3.0f1; Built-in/HDRP нет | Non standard EULA |
 | 2D Game Kit | Asset Store 5.0 (23.03.2026) | Free Asset | DOC URP 6000.3.0f1 | Standard EULA, Extension Asset |
 | FPS Microgame | Asset Store DEPRECATED | Old Asset | Недоступен новым пользователям | НЕ рекомендовать как новый starter |
+
+## Предлагаемые полностью бесплатные стеки — ПОКА не проверены
+| Стек | Основные компоненты | Статус и основание |
+|---|---|---|
+| [2D-PLATFORMER-FREE](21_Compatible_Stacks/FREE_STACKS.md) | Kenney CC0 + Input System + Physics2D + Tilemap Extras | ASSUMED: официальные компоненты и бесплатная графика, live теста нет |
+| [3D-RPG-EXPLORATION-FREE](21_Compatible_Stacks/FREE_STACKS.md) | Quaternius Standard Characters/Animations + Unity Input, Cinemachine, AI Navigation | ASSUMED: Quaternius заявляет совместимые rig, но retarget не тестировался |
+| [3D-SCI-FI-CORRIDOR-FREE](21_Compatible_Stacks/FREE_STACKS.md) | Quaternius Standard Sci-Fi + Unity Camera/Input + URP | ASSUMED: FBX импорт и prefab/коллизии не проверены |
+| [BOAT-RACING-REFERENCE](21_Compatible_Stacks/FREE_STACKS.md) | Boat Attack + Water | LEGACY: Unity 2019 demo, Unity 6 не подтверждена |
+
+**В нашей базе значение VERIFIED = 0** до живых tests/build на целевой машине. Ссылки на package версии не заменяют результаты тестов.

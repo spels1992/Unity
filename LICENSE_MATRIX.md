@@ -25,3 +25,15 @@
 
 | CoplayDev MCP for Unity | [LICENSE](https://github.com/CoplayDev/unity-mcp/blob/main/LICENSE) | MIT | Право использовать код ≠ Unity-authorized AI gateway |
 | CoderGamester MCP Unity | [LICENSE.md](https://github.com/CoderGamester/mcp-unity/blob/main/LICENSE.md) | MIT | Право использовать код ≠ Unity-authorized AI gateway |
+
+## Дополнение 2026-10-08: источники ассетов и крупных проектов
+| Решение | Лицензия и ссылка | Цена внедрения | Правило |
+|---|---|---|---|
+| [Poly Haven](Tool_Catalog/poly-haven.md) | [CC0](https://polyhaven.com/license) | Отдельные assets: 0 ₽ | Не путать с лицензией сайта/платными сервисами |
+| [Kenney](Tool_Catalog/kenney-free-assets.md) | [CC0](https://kenney.nl/support) | Отдельные packs: 0 ₽ | All-in-1 bundle платный, запрещён |
+| [Quaternius](Tool_Catalog/quaternius-free-assets.md) | [CC0](https://quaternius.com/faq.html) | Standard: 0 ₽ | Paid Source с готовыми Unity projects не использовать |
+| [Chop Chop](Tool_Catalog/chop-chop-open-project-1.md) | [Apache-2.0](https://github.com/UnityTechnologies/open-project-1/blob/main/LICENSE) | Source: 0 ₽ | Проверить лицензии ассетов отдельно |
+| [Boat Attack](Tool_Catalog/boat-attack-urp-demo.md) | [Unity Companion](https://github.com/Unity-Technologies/BoatAttack/blob/master/LICENSE.md) | Source: 0 ₽ | Не MIT, Unity project dependent restrictions |
+| [Boat Attack Water](Tool_Catalog/boat-attack-water.md) | [Unity Companion](https://github.com/Unity-Technologies/boat-attack-water/blob/master/LICENSE.md) | Source: 0 ₽ | Совместимость Unity 6 не установлена |
+
+**Все решения, реально используемые в проекте, должны иметь нулевую дополнительную стоимость.** Условия доступа к бесплатным assets и продуктам могут измениться, проверять перед скачиванием.

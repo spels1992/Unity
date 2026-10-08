@@ -16,3 +16,15 @@
 **Не рекомендовать как новый production starter:** [FPSSample](Tool_Catalog/fps-sample-legacy.md) — сам README заявляет Unity 2018.3 и отсутствие поддержки. Важно различать красивую демонстрацию и поддерживаемую современную основу.
 
 **Устарели/недоступны новым пользователям:** [FPS Microgame](Tool_Catalog/fps-microgame-deprecated.md) и отдельный старый [Starter Assets: FirstPerson](https://assetstore.unity.com/packages/essentials/starter-assets-firstperson-urp-196525). Первый официально deprecated; второй снят со страницы, использовать актуальный объединённый контроллер.
+
+## Полностью бесплатные варианты для создания контента — первое предпочтение
+| Что нужно | 0 ₽ вариант | Лицензия | Ограничения |
+|---|---|---|---|
+| HDRI, PBR материалы, 3D props | [Poly Haven](Tool_Catalog/poly-haven.md) | CC0 | Дополнительные Vault/Bulk удобства не обязательны и бывают платными |
+| 2D платформер | [Kenney New Platformer Pack](Tool_Catalog/kenney-new-platformer-pack.md) | CC0 | Отдельный набор бесплатен, All-in-1 платный |
+| 3D платформер | [Kenney Platformer Kit](Tool_Catalog/kenney-platformer-kit-3d.md) | CC0 | Контроллер и правила игры не входят |
+| Бесплатные RPG/TPS базовые модели | [Quaternius Universal Base Characters](Tool_Catalog/quaternius-universal-base-characters.md) | CC0 Standard | Paid Source не покупать |
+| Humanoid-анимации | [Quaternius Universal Animation Library](Tool_Catalog/quaternius-universal-animation-library.md) | CC0 Standard | Степень покрытия free части нужно сверять |
+| Sci-fi окружение | [Quaternius Modular Sci-Fi MegaKit](Tool_Catalog/quaternius-modular-sci-fi-megakit.md) | CC0 Standard | Бесплатная часть ≠ готовая Unity сцена |
+
+**Бесплатные совместимые стеки пока только на уровне кандидатов**: [FREE_STACKS.md](21_Compatible_Stacks/FREE_STACKS.md). Ни один не проходил live-тест в Unity Editor.

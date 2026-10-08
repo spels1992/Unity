@@ -67,3 +67,10 @@
 По состоянию на 2026-10-08 в Asset Store FPS Microgame помечен **Deprecated**. Проверять живую страницу пакета, а не только ссылки в старом учебном списке. Обновлённый объединённый FPS/TPS Controller доступен как FREE с Non-standard EULA.
 
 **Основная задача:** [#2 Глобальный каталог готовых решений Unity](https://github.com/spels1992/Unity/issues/2). Старое задание #1 закрыто. **Unity MCP/ИИ:** до подключения читать [ToS и authorized access](19_AI_Automation/UNITY_MCP_AND_TERMS.md).
+
+## Новые бесплатные наборы (2026-10-08)
+- [Библиотеки 2D/3D ассетов с нулевой стоимостью](Tool_Catalog/INDEX.md#бесплатные-библиотеки-2d3d-ассетов-проверено-2026-10-08): Poly Haven CC0, Kenney CC0, Quaternius Standard CC0.
+- [Четыре бесплатные связки-кандидата](21_Compatible_Stacks/FREE_STACKS.md): 2D платформер, 3D-RPG, sci-fi, лодочные гонки (legacy).
+- [Бесплатный Blender → Unity pipeline](18_Blender_Integration/FREE_ASSET_PIPELINE.md): FBX, rig, материалы, Prefab, тесты.
+- [Бесплатные законченные игровые примеры](Comparisons/COMPLETE_FREE_PROJECTS.md): Chop Chop и Boat Attack — для изучения, версии устарели.
+- [Provenance лицензий каждого ассета](Integration_Guides/FREE_ASSET_LICENSE_LOG.md).

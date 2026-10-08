@@ -36,3 +36,24 @@
 - Зафиксирована строгая политика [FREE_ONLY_POLICY](FREE_ONLY_POLICY.md): платные инструменты только изучать, не внедрять; free tiers с платными лимитами — не критический путь.
 - На основании доступных tools и `skills__list` составлена [матрица плагинов и скиллов Unity/Blender](19_AI_Automation/AVAILABLE_PLUGINS_AND_SKILLS.md), fallback без жёсткой зависимости от одного MCP.
 - Найден `Unity_MCP.blender_bridge` для связи с BlenderMCP addon. Сам addon/соединение не тестировались. 
+
+## Контрольная точка 2026-10-08: бесплатные 2D/3D, законченные игры, стеки и импорт
+
+**Задачи выполнены и зафиксированы коммитами:**
+1. [001356ae](https://github.com/spels1992/Unity/commit/001356ae147148e75ec979ee2abb2859776b6a26) — восемь канонических бесплатных CC0 карточек: Poly Haven, Kenney, Quaternius и отдельные пакеты.
+2. [fefe839](https://github.com/spels1992/Unity/commit/fefe839a472fff6e854aba09cefe4763c63e9166) — три крупных Unity проекта/подсистемы (Chop Chop, Boat Attack и Water) + comparison.
+3. [6ddb0fc](https://github.com/spels1992/Unity/commit/6ddb0fc6be87ceca2e0a611f12e7b0b7ee425bcd) — четыре бесплатных жанровых стека со статусом ASSUMED.
+4. [1466485](https://github.com/spels1992/Unity/commit/14664854d2f39242395f1ad2f5d29d5ec0847966) — бесплатный FBX/Blender→Unity pipeline, asset provenance.
+
+**Итого новых карточек за цикл: 11, новых стеков: 4, ни один Editor тест не выполнялся.**
+
+### Важные решения
+- Kenney All-in-1 и Quaternius Source — платные расширения, в проекте запрещены; бесплатные отдельные версии разрешены согласно подтверждённой CC0.
+- Chop Chop прекращён, Boat Attack legacy и не production ready; использовать как обучение, не главный шаблон Unity 6.
+- FBX — базовый Unity импорт моделей по официальной документации, особенно для воспроизводимой сборки.
+
+### Следующие задачи
+- Полностью исследовать бесплатные open-source проекты под Unity 6.3+ по каждому жанру с активным выпуском и лицензией.
+- Найти готовые бесплатные контроллеры/AI/Quest/RPG/Vehicle frameworks и подтвердить compatibility/лицензию.
+- Протестировать Free Stacks на реальном Unity Editor и Blender, зафиксировав logs + screenshots + Player build.
+- Построить машинно-читаемый индекс и автоматические проверки ссылок, строго избегая API с платными кредитами.

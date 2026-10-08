@@ -29,3 +29,25 @@
 | [Unity AI menu prereqs](https://docs.unity.com/en-us/engine/6000.5/manual/unity-ai/ai-menu-access) | Version/project prerequisites |
 | [CoplayDev LICENSE](https://github.com/CoplayDev/unity-mcp/blob/main/LICENSE) | MIT source |
 | [CoderGamester LICENSE.md](https://github.com/CoderGamester/mcp-unity/blob/main/LICENSE.md) | MIT source |
+
+## Новые первоисточники бесплатного контента, FBX и Unity demos (08.10.2026)
+| Источник | Проверяемый факт |
+|---|---|
+| [Poly Haven license](https://polyhaven.com/license) | Все assets HDRI/texture/model CC0 |
+| [Poly Haven about](https://polyhaven.com/about-contact) | Free assets без оплаты/аккаунта |
+| [Kenney support](https://kenney.nl/support) | Game assets CC0 и свободны для коммерческого использования |
+| [Kenney New Platformer](https://kenney.nl/assets/new-platformer-pack) | 440 файлов, CC0 и 0 ₽ отдельный pack |
+| [Kenney Platformer Kit](https://kenney.nl/assets/platformer-kit) | 150 3D assets, CC0, 0 ₽ |
+| [Kenney All-in-1](https://kenney.itch.io/kenney-game-assets) | Платный большой сборник: не включать |
+| [Quaternius FAQ](https://quaternius.com/faq.html) | CC0, коммерческое использование |
+| [Quaternius Base Characters](https://quaternius.com/packs/universalbasecharacters.html) | 6 базовых моделей, 20 hair, Standard Free vs Source paid |
+| [Quaternius Animation Library](https://quaternius.com/packs/universalanimationlibrary.html) | Заявлены 120+ animations, Free tier часть |
+| [Quaternius Sci-Fi](https://quaternius.com/packs/modularscifimegakit.html) | 270+ modules full kit, Standard бесплатная часть |
+| [Unity Open Project #1 README](https://github.com/UnityTechnologies/open-project-1/blob/main/README.md) | Chop Chop Unity 2020.3, retired Dec 2021 |
+| [Unity Open Project #1 LICENSE](https://github.com/UnityTechnologies/open-project-1/blob/main/LICENSE) | Apache-2.0 root license |
+| [Boat Attack README](https://github.com/Unity-Technologies/BoatAttack/blob/master/README.md) | URP, boats, water, Git LFS, no production guarantee |
+| [Boat Attack LICENSE.md](https://github.com/Unity-Technologies/BoatAttack/blob/master/LICENSE.md) | Unity Companion License |
+| [Boat Attack Water LICENSE.md](https://github.com/Unity-Technologies/boat-attack-water/blob/master/LICENSE.md) | Unity Companion License |
+| [Unity 6.3 model format](https://docs.unity.com/en-us/engine/6000.3/manual/assets-and-media/asset-types/models/creating-dccassets/3d-formats) | FBX recommended; .blend importer depends on installed Blender |
+| [Blender file Import/Export](https://docs.blender.org/manual/en/latest/files/import_export/index.html) | FBX/glTF export tools |
+| [Blender license](https://www.blender.org/about/license/) | GPL tool does not auto-license artwork under GPL |
