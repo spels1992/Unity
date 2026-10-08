@@ -80,3 +80,10 @@
 - [Сравнение 12 систем](Comparisons/FREE_FRAMEWORKS_2026.md): от целой RTS [OpenEmpires](Tool_Catalog/open-empires-rts.md) до [Moonforge RPG](Tool_Catalog/moonforge-rpg-engine.md), [Game Lattice](Tool_Catalog/game-lattice-rpg.md), Ink/Yarn диалогов и 2D/3D dungeon generators.
 - [Лицензии, которые пока не позволяют рекомендовать кандидата](Research_Archive/REJECTED_OR_BLOCKED_LICENSE.md).
 - **Все решения по документации, не тестировались в Unity.** Не смешивать несколько крупных frameworks, если они дублируют ownership inventory/combat/dialogue/save/input.
+
+
+## Цикл 2026-10-08: бесплатные системы для готовых игр
+- [Сравнение 12 RPG, RTS, Dialogue, Controller и генераторов](Comparisons/FREE_FRAMEWORKS_2026.md).
+- [5 бесплатных framework-first сценариев](21_Compatible_Stacks/FREE_FRAMEWORK_FIRST_SCENARIOS.md): RTS, turn-based RPG, data-driven RPG, 3D и 2D dungeon.
+- [Проверяемые smoke-тесты Unity без расходов](22_Optimization_Testing/FREE_MODULE_SMOKE_TESTS.md).
+- [Moonforge](Tool_Catalog/moonforge-rpg-engine.md) включает готовую Unity roguelike sample; заявленную в README лицензию встроенного тайлсета необходимо перепроверить до распространения.

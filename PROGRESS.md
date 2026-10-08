@@ -57,3 +57,32 @@
 - Найти готовые бесплатные контроллеры/AI/Quest/RPG/Vehicle frameworks и подтвердить compatibility/лицензию.
 - Протестировать Free Stacks на реальном Unity Editor и Blender, зафиксировав logs + screenshots + Player build.
 - Построить машинно-читаемый индекс и автоматические проверки ссылок, строго избегая API с платными кредитами.
+
+
+## Цикл 2026-10-08 — готовые бесплатные игровые фреймворки
+
+Сохранённые самостоятельные блоки:
+1. [923e6af](https://github.com/spels1992/Unity/commit/923e6af34da3d5ecc05cd17c38804727529de1c1) — 7 карточек: OpenEmpires, Moonforge, Yarn Spinner, Ink, OpenKCC, EZRoomGenerator, Edgar Free.
+2. [448e7a3](https://github.com/spels1992/Unity/commit/448e7a31016801775f125d927fa216fbba9b2f8b) — 5 карточек: Game Lattice, playground, Modular Inventory, Softlight, FPS Controller.
+3. [d8cd072](https://github.com/spels1992/Unity/commit/d8cd072004469f30299d2062695dd0289c59ec20) — сравнение и матрицы лицензий, исключение инвентаря без LICENSE.
+4. [364f102](https://github.com/spels1992/Unity/commit/364f1020029da74c1a7b8b73a3d4e5d573bd6ffd) — 5 бесплатных связок и инструкция реальных smoke-тестов.
+5. [42a11c9](https://github.com/spels1992/Unity/commit/42a11c928f63fe16021170a83a75aec5de201cbb) — подробный аудит Moonforge Unity roguelike sample, точный UPM URL и лицензионный пробел её тайлсета.
+
+**Итого этого цикла: 12 новых карточек решений, 2 самостоятельных сравнения/исключения, 2 инженерные инструкции; 5 коммитов до этого журнала.** Платные средства НЕ использовались и НЕ внедрялись. Практических Unity/Blender live-tests не было: VERIFIED = 0.
+
+Существенные результаты:
+- OpenEmpires — полноценная RTS; README Unity 6000.3.9f1 и фактический ProjectVersion Unity 6000.5.9f1 расходятся. Rust/PostgreSQL бесплатно для localhost.
+- Moonforge — большая RPG domain система с уже готовой импортируемой roguelike Unity sample (Town, Dungeon, Combat, Quest, Save/Load).
+- Yarn Spinner бесплатен через Git UPM при MIT, а платная версия магазина необязательна. Ink — MIT альтернатива для диалогов.
+- Game Lattice — Apache-2.0 JSON RPG и AI framework, версия UPM 0.0.0-dev; есть Unity 6000.4 playground.
+- EZ Room Generator — MIT Unity 6000+, FBX Exporter dependency; Edgar Free — MIT с платной PRO, использовать только Core.
+- Softlight — ранний прототип, RPG функции Planned, нельзя выдавать за готовые.
+- wendtcloud/inventory-system без root LICENSE в дереве, не принят.
+- Moonforge sample README утверждает CC0 DungeonTileset II и отдельный LICENSE.txt, но файл по указанному пути отсутствует в просмотренном GitHub tree. Перед переносом арт-ассетов перепроверять исходную лицензию.
+
+Дальнейшие задачи:
+1. Подтвердить происхождение и лицензию 0x72 DungeonTileset II у издателя или автора Moonforge.
+2. Запустить отдельный бесплатный тест Moonforge Unity sample, не трогая рабочие проекты.
+3. Отдельно проверить Yarn Spinner vs Ink, установку на актуальную Unity 6.
+4. Протестировать EZRoom/Edgar Free и персонажные контроллеры.
+5. Изучать полноценные бесплатные игры и framework по всем жанрам из ROADMAP.

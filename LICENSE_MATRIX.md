@@ -54,3 +54,7 @@
 | [Softlight](Tool_Catalog/softlight-unity6-rpg.md) | [MIT](https://github.com/Ziad-Amr1/softlight/blob/main/LICENSE) | Провести аудит art/audio assets |
 | [Unity simple FPS controller](Tool_Catalog/simple-fps-controller-unity6-mit.md) | [MIT](https://github.com/yahiawork/The-First-Person-Controller-Unity-6/blob/main/LICENSE) | Small code set; не готовая игра |
 | wendtcloud inventory | [README](https://github.com/wendtcloud/inventory-system) | **BLOCKED_LICENSE_PENDING**: нет файла LICENSE в GitHub tree; не включать как рекомендуемый инструмент |
+
+
+## Незакрытый вопрос: права на арт из Moonforge Unity sample (08.10.2026)
+Код Moonforge — MIT, подтверждено. README Unity Roguelike sample заявляет, что графика 0x72 DungeonTileset II распространяется под CC0 и что файл лицензии доступен по пути Art/DungeonTilesetII/LICENSE.txt. В проверенном полном GitHub tree этот файл по заявленному пути не обнаружен. До отдельной проверки первичного источника https://0x72.itch.io/dungeontileset-ii НЕ публиковать эти изображения и не переносить в выпускаемую игру. Лицензия кода не является лицензией каждого вложенного арт-ассета.
