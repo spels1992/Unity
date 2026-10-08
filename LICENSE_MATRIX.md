@@ -62,3 +62,19 @@
 
 ## Уточнение источника DungeonTileset II (08.10.2026)
 **Подтверждено:** первичный автор 0x72 на https://0x72.itch.io/dungeontileset-ii обозначает лицензию ASSET CC0 1.0 и явно разрешает коммерческое использование без обязательного указания автора. Поэтому оригинальную бесплатную графику можно брать **непосредственно у 0x72**. Не найденный в GitHub sample Moonforge LICENSE.txt остаётся вопросом корректности упаковки sample, но не нарушает авторское разрешение на сам оригинальный набор. [Карточка](Tool_Catalog/dungeontileset-ii-0x72.md). Сохранять URL/дату/артефакты лицензии и не приписывать CC0 другим непроверенным вложенным файлам.
+
+
+## Free-source решения с отдельными лицензиями — 2026-10-08
+| Проект | Корневая лицензия (проверена) | Какие отдельные права ещё нужны |
+|---|---|---|
+| [Project Wanderer](Tool_Catalog/project-wanderer-survival.md) | [MIT](https://github.com/RaunakGameDev/Project-Wanderer/blob/main/LICENSE) | Unity StarterAssets = Unity Companion License |
+| [Grid Building System](Tool_Catalog/grid-building-system.md) | [MIT](https://github.com/DanielJDeng1/Grid-Building-System/blob/main/LICENSE) | Third-party demo art separately |
+| [GeoJSON City Builder](Tool_Catalog/geojson-city-builder.md) | [MIT](https://github.com/ElmarJ/GeoJsonCityBuilder/blob/main/LICENSE) | **BLOCKED** обязательный com.virgis.geojson.net, OSM/GEOJSON права |
+| [PolyRace](Tool_Catalog/polyrace-legacy.md) | [MIT](https://github.com/vthem/PolyRace/blob/master/License) | LGPL LibNoise, DOTween, модели/музыка/шрифты |
+| [Street Racing](Tool_Catalog/street-racing-free-demo.md) | [MIT](https://github.com/is-cout/street-racing-unity/blob/main/LICENSE) | Unity Asset Store car/road пакеты |
+| [ArcadeVehiclePhysics](Tool_Catalog/arcade-vehicle-physics.md) | [MIT](https://github.com/benmcinnes/ArcadeVehiclePhysics/blob/master/LICENSE) | Sketchfab model и другие assets отдельно |
+| [TLabVehiclePhysics](Tool_Catalog/tlab-vehicle-physics.md) | [MIT](https://github.com/TLabAltoh/TLabVehiclePhysics/blob/master/LICENSE.md) | **BLOCKED** сабмодули без подтверждённых лицензий |
+| [Grid-Based Crafting](Tool_Catalog/grid-based-crafting-system.md) | [MIT](https://github.com/neomasterrr/GridBasedCraftingSystem/blob/master/LICENSE.md) | Store version and third-party assets проверить |
+| [Armour Multiplayer-FPS](Tool_Catalog/armour-multiplayer-fps.md) | [MIT](https://github.com/Armour/Multiplayer-FPS/blob/master/LICENSE) | Photon PUN2 и Asset Store/Mixamo conditions |
+
+**Публичный GitHub и MIT-код не означают «все ассеты бесплатно и с такими же правами».** [Список исключений](Research_Archive/BLOCKED_DEPENDENCIES_2026_10.md).

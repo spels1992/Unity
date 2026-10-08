@@ -46,3 +46,16 @@
 
 ### Дополнение: Moonforge даёт готовую Unity roguelike sample
 [Moonforge RPG](Tool_Catalog/moonforge-rpg-engine.md) не только Core: в UPM включена Unity sample с Town, Dungeon, HUD, боем, questing, save/load и процедурной генерацией. [Sample README](https://github.com/3583Bytes/moonforge-rpg-engine/blob/main/unity-packages/com.moonforge.core/Samples~/Roguelike/README.md). Для быстрого теста полноценной turn-based RPG он приоритетнее сборки отдельных подсистем. Однако **лицензионный файл тайлсета из README не найден в GitHub tree** — права на конкретный art подтвердить у правообладателя прежде чем переносить/распространять ассеты.
+
+
+## Продолжение: стартовые бесплатные решения Survival/Building/Racing (08.10.2026)
+| Запрос | В первую очередь | Почему | Неизвестное |
+|---|---|---|---|
+| Survival + craft + save | [Project Wanderer](Tool_Catalog/project-wanderer-survival.md) | Несколько рабочих систем связаны в один loop, Unity 6000.3.13f1, MIT code | Проверка StarterAssets Unity Companion и PlayMode |
+| Построить здание по сетке | [Grid Building System](Tool_Catalog/grid-building-system.md) | Placement, многоэтажный A*, mesh chunks и save, Unity 6000.3.16f1 | Editor test, source assets |
+| Аркадная физика авто | [ArcadeVehiclePhysics](Tool_Catalog/arcade-vehicle-physics.md) | MIT code, меньше масштаба чем full racing game | Устаревшая 2018 Unity, новый Input |
+| Гонки sci-fi | [PolyRace](Tool_Catalog/polyrace-legacy.md) | Цельный проект с procedural track | Сторонние модели/музыка/ЛГПЛ, Unity 2020; **только изучение** |
+| Реалистичные шины | [TLabVehiclePhysics](Tool_Catalog/tlab-vehicle-physics.md) | Pacejka + LUT | **BLOCKED**: лицензии git submodules неизвестны |
+| Город из GeoJSON | [GeoJSON City Builder](Tool_Catalog/geojson-city-builder.md) | Готовое построение 3D объектов из геоданных | **BLOCKED**: лицензия com.virgis.geojson.net не выяснена |
+
+При любой сборке система Input/Save/Network/Physics должна иметь **одного владельца**. [Сравнение](Comparisons/VEHICLES_SURVIVAL_BUILDING_FPS_2026.md).

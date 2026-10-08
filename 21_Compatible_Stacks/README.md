@@ -24,3 +24,7 @@
 - [EZ Room](../Tool_Catalog/ezroomgenerator.md) для 3D, [Edgar Free](../Tool_Catalog/edgar-unity-free.md) для 2D, в разных игровых стэках.
 
 [Полное сравнение систем](../Comparisons/FREE_FRAMEWORKS_2026.md). **Совместимость предположительная**.
+
+
+## Новые 0 ₽ candidate stacks
+[FREE_SURVIVAL_RACING_BUILDING.md](FREE_SURVIVAL_RACING_BUILDING.md) — 4 проектных сценария для Survival/Building/Racing/FPS LAN с тестами и ограничениями. Все **ASSUMED**, не подтверждённые Unity Editor.

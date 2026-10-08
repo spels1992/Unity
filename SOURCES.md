@@ -79,3 +79,17 @@
 
 | [0x72 official DungeonTileset II](https://0x72.itch.io/dungeontileset-ii) | Первоисточник: Download name-your-price, asset license CC0 v1.0, commercial usage |
 | [0x72 author licensing comment](https://itch.io/post/1235897) | Явное коммерческое использование и CC0 без ограничений для оригинального pack |
+
+
+## Источники нового цикла: survival/racing/building/FPS (2026-10-08)
+| Первоисточник | Что подтверждено |
+|---|---|
+| [Project Wanderer](https://github.com/RaunakGameDev/Project-Wanderer) | Survival gameplay loop; MIT root; StarterAssets Unity Companion |
+| [Grid Building System](https://github.com/DanielJDeng1/Grid-Building-System) | Multi-floor grid build, chunked meshes, A*, save, Unity 6000.3.16f1 |
+| [GeoJSON City Builder](https://github.com/ElmarJ/GeoJsonCityBuilder) | MIT root; package dependencies com.unity.probuilder, com.virgis.geojson.net |
+| [PolyRace](https://github.com/vthem/PolyRace) | 2020.3.25f1; procedural hovercraft racing; third-party licenses |
+| [Street Racing](https://github.com/is-cout/street-racing-unity) | 2020.3.25f1; Asset Store vehicles/roads |
+| [ArcadeVehiclePhysics](https://github.com/benmcinnes/ArcadeVehiclePhysics) | MIT physics; 2018.4 and old input |
+| [TLabVehiclePhysics](https://github.com/TLabAltoh/TLabVehiclePhysics) | Pacejka/LUT, 2022.3.19; .gitmodules licence blockers |
+| [GridBasedCraftingSystem](https://github.com/neomasterrr/GridBasedCraftingSystem) | MIT source, 2022.3.9 |
+| [Armour Multiplayer FPS](https://github.com/Armour/Multiplayer-FPS) | MIT root, Photon/PUN2, Mixamo and Asset Store asset credits |

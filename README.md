@@ -87,3 +87,11 @@
 - [5 бесплатных framework-first сценариев](21_Compatible_Stacks/FREE_FRAMEWORK_FIRST_SCENARIOS.md): RTS, turn-based RPG, data-driven RPG, 3D и 2D dungeon.
 - [Проверяемые smoke-тесты Unity без расходов](22_Optimization_Testing/FREE_MODULE_SMOKE_TESTS.md).
 - [Moonforge](Tool_Catalog/moonforge-rpg-engine.md) включает готовую Unity roguelike sample; заявленную в README лицензию встроенного тайлсета необходимо перепроверить до распространения.
+
+
+## 08.10.2026 — новый охват: гонки, survival, конструкторы и FPS
+- [Девять новых free-source решений и лицензионные предупреждения](Comparisons/VEHICLES_SURVIVAL_BUILDING_FPS_2026.md).
+- [4 архитектурных сценария: Survival, Grid Building, Racing, FPS LAN](21_Compatible_Stacks/FREE_SURVIVAL_RACING_BUILDING.md).
+- [Пошаговый метод пополнения базы: от запроса к ссылке, проверке прав и тесту](01_Game_Development_Pipeline/RESEARCH_METHOD_ZERO_COST.md).
+- [Список непроверенных лицензий и платных внешних зависимостей](Research_Archive/BLOCKED_DEPENDENCIES_2026_10.md).
+- **Состояние:** все изучены по GitHub, без запуска в нашем Unity Editor. Правило 0 ₽ сохраняется.

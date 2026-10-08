@@ -55,3 +55,17 @@
 | FPS standalone controller | [Simple FPS Controller](../Tool_Catalog/simple-fps-controller-unity6-mit.md) | MIT, классический Input Manager |
 
 Не считать готовую demo-сцену полной игрой, пока не выполнена проверка gameplay и поставка.
+
+
+## Расширение жанров: Racing / Survival / Construction / FPS (2026-10-08)
+| Жанр | Готовая бесплатная основа | Не путать с полной готовностью |
+|---|---|---|
+| Survival / Crafting | [Project Wanderer](../Tool_Catalog/project-wanderer-survival.md), [Grid-Based Crafting](../Tool_Catalog/grid-based-crafting-system.md) | Самостоятельное сохранение, лицензия ассетов; интеграцию двух core не делать без необходимости |
+| Colony Builder / Building Sim | [Grid Building System](../Tool_Catalog/grid-building-system.md) | Экономика/жители ещё не входят в реализованный scope |
+| City Visualization | [GeoJSON City Builder](../Tool_Catalog/geojson-city-builder.md) | Источник/лицензия GeoJSON и package dependency остаются блокерами |
+| Racing Sci-Fi | [PolyRace](../Tool_Catalog/polyrace-legacy.md), [Street Racing](../Tool_Catalog/street-racing-free-demo.md) | Legacy и third-party art |
+| Racing Arcade Physics | [ArcadeVehiclePhysics](../Tool_Catalog/arcade-vehicle-physics.md) | Старый Unity 2018; пересобрать на Unity6 |
+| Racing Simulation | [TLabVehiclePhysics](../Tool_Catalog/tlab-vehicle-physics.md) | Pacejka, submodule licenses не проверены |
+| Multiplayer FPS | [Armour Multiplayer-FPS](../Tool_Catalog/armour-multiplayer-fps.md), [Mirror](../Tool_Catalog/mirror-networking.md) | Не гарантируется бесплатно сетевое облако/хостинг, совместимость неизвестна |
+
+[Сравнение кандидатов](../Comparisons/VEHICLES_SURVIVAL_BUILDING_FPS_2026.md).

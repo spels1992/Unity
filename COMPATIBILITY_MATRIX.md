@@ -56,3 +56,19 @@
 | [OpenKCC](Tool_Catalog/openkcc-controller.md) | 1.5.0 UPM Unity 2019.4+, development last 2023 | Unity 6 unknown |
 
 **VERIFIED still equals zero**: source code/README/manifest checks do not mean runtime compatibility.
+
+
+## НОВЫЕ решения: гонки, survival, строительство, FPS (исключительно DOCUMENTED)
+| Решение | ProjectVersion / metadata | Реальный результат |
+|---|---|---|
+| [Project Wanderer](Tool_Catalog/project-wanderer-survival.md) | 6000.3.13f1; Unity Input System | NOT_RUN |
+| [Grid Building System](Tool_Catalog/grid-building-system.md) | 6000.3.16f1 | NOT_RUN |
+| [GeoJSON City Builder](Tool_Catalog/geojson-city-builder.md) | 0.4.3, Unity 2019.1+, dependency com.virgis.geojson.net 1.2.17 | BLOCKED_DEPENDENCY / NOT_RUN |
+| [PolyRace](Tool_Catalog/polyrace-legacy.md) | 2020.3.25f1, Blender 3.0 (README) | NOT_RUN, legacy |
+| [Street Racing](Tool_Catalog/street-racing-free-demo.md) | 2020.3.25f1 | NOT_RUN, Asset Store packs не проверены |
+| [ArcadeVehiclePhysics](Tool_Catalog/arcade-vehicle-physics.md) | 2018.4.5f1, legacy Input Manager | NOT_RUN |
+| [TLabVehiclePhysics](Tool_Catalog/tlab-vehicle-physics.md) | 2022.3.19f1, 3 git submodules | BLOCKED_LICENSE / NOT_RUN |
+| [Grid-Based Crafting](Tool_Catalog/grid-based-crafting-system.md) | 2022.3.9f1 | NOT_RUN |
+| [Armour Multiplayer-FPS](Tool_Catalog/armour-multiplayer-fps.md) | 2022.3.55f1, Photon PUN2 | NOT_RUN, server cost unknown |
+
+**VERIFIED здесь ноль**, подготовлен только анализ версий/конфликтов по исходникам.

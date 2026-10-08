@@ -73,4 +73,22 @@
 [Сравнение комплексных бесплатных фреймворков](../Comparisons/FREE_FRAMEWORKS_2026.md) · [Отклонённые/неподтверждённые лицензии](../Research_Archive/REJECTED_OR_BLOCKED_LICENSE.md).
 
 
-| [0x72 DungeonTileset II](dungeontileset-ii-0x72.md) | 2D Dungeon / sprites / animations | CC0 авторский источник | Любая Unity Sprite/Tilemap, наш импорт не тестировался | Бесплатно |
+## CC0 графика для dungeon
+| Набор | Категория | Лицензия | Статус | Карточка |
+|---|---|---|---|---|
+| 0x72 DungeonTileset II | 2D tilemap / sprites | Авторский CC0 | По первоисточнику; импорт не проверен | [Открыть](dungeontileset-ii-0x72.md) |
+
+## Survival / Racing / Building / FPS — бесплатные исходники (2026-10-08)
+| Название | Для чего | Правовые ограничения | Версия Unity | Карточка |
+|---|---|---|---|---|
+| Project Wanderer | Survival, gathering, crafting, save | MIT code + Unity Companion StarterAssets | 6000.3.13f1 | [Открыть](project-wanderer-survival.md) |
+| Grid Building System | Construction, multi-floor A*, save | MIT code; assets отдельно | 6000.3.16f1 | [Открыть](grid-building-system.md) |
+| GeoJSON City Builder | Генерация города из GeoJSON | MIT root; dependency BLOCKED | 0.4.3 / 2019.1+ | [Открыть](geojson-city-builder.md) |
+| PolyRace | Sci-fi hover racing game | MIT root; third-party restrictions | 2020.3.25f1 | [Открыть](polyrace-legacy.md) |
+| Street Racing | Тайм-триал / WebGL | MIT root; Asset Store EULA | 2020.3.25f1 | [Открыть](street-racing-free-demo.md) |
+| ArcadeVehiclePhysics | Arcade car physics | MIT scripts; Sketchfab model отдельно | 2018.4.5f1 | [Открыть](arcade-vehicle-physics.md) |
+| TLabVehiclePhysics | Pacejka/LUT vehicle physics | MIT root; git submodules BLOCKED | 2022.3.19f1 | [Открыть](tlab-vehicle-physics.md) |
+| Grid-Based Crafting System | Рецепты, UI crafting | MIT source, store unknown | 2022.3.9f1 | [Открыть](grid-based-crafting-system.md) |
+| Armour Multiplayer-FPS | Networked FPS reference | MIT root; Photon/Asset Store restrictions | 2022.3.55f1 | [Открыть](armour-multiplayer-fps.md) |
+
+[Сравнение и выбор](../Comparisons/VEHICLES_SURVIVAL_BUILDING_FPS_2026.md) · [Как работать и искать правильно](../01_Game_Development_Pipeline/RESEARCH_METHOD_ZERO_COST.md).
