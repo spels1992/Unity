@@ -172,3 +172,9 @@
 - Изучить бесплатно скачиваемые **полноценные** музыкальные библиотеки по жанрам с точными лицензиями каждого файла, а также открытые DAW (LMMS/Audacity/MuseScore) и условия их bundled samples.
 - Проверить офлайн lip-sync для русской тестовой фразы и экспорт Blender Morph Targets → Unity; оценить редактор/voice input permissions.
 - Продолжить заполнение редких жанров: RTS/FPS/survival/colony/racing и Unity6 project ready.
+
+
+## 2026-10-08 — MuseScore Studio: один подтверждённый коммит
+- [1d623dd](https://github.com/spels1992/Unity/commit/1d623dd09e9b04731fb232cbfde60fd06f421122) — [MuseScore Studio](Tool_Catalog/musescore-studio-free.md), v4.7.5, GPL-3.0, самостоятельная бесплатная версия; повторное чтение GitHub PASS.
+- Исследованы также LMMS 1.2.2 (GPL-2.0) и Audacity 4.0.1 (GPLv3), но запись карточек заблокирована safety checks, не считать их сохранёнными.
+- Unity/Blender/DAW не запускались. Дополнительные расходы 0 ₽. Следующее: сохранить LMMS/Audacity, сравнение и аудио workflow.
