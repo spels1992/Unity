@@ -44,3 +44,11 @@
 | Quaternius Modular Sci-Fi MegaKit | Модульное 3D окружение sci-fi | Только Standard бесплатен; Source со всеми Unity/Blender-сценами, collision и shaders требует о | [Открыть](quaternius-modular-sci-fi-megakit.md) |
 
 **Критично:** отдельные пакеты Kenney бесплатны, но All-in-1 bundle платный. Quaternius Standard частично бесплатен, Source version с Unity/Blender projects — платная. Не приписывать бесплатной версии функции Source.
+
+## Готовые полноценные проекты и крупные подсистемы
+| Проект | Тип | Версия/лицензия | Карточка |
+|---|---|---|---|
+| Unity Open Project #1 — Chop Chop | Complete project / subsystem | Unity 2020.3 LTS из README, Unity 6 не проверена; Apache-2.0 root LICENSE | [chop-chop-open-project-1](chop-chop-open-project-1.md) |
+| Unity Boat Attack | Complete project / subsystem | README указывает release/2019.3 и Unity 2019.3f5, другие branch проверять по ProjectVersion.txt; Unity Companion License (проверено LICENSE.md) | [boat-attack-urp-demo](boat-attack-urp-demo.md) |
+| Unity Boat Attack Water | Complete project / subsystem | Unity 6 совместимость в README не подтверждена; версию пакета смотреть в package.json; Unity Companion License по LICENSE.md upstream | [boat-attack-water](boat-attack-water.md) |
+[Сравнение](../Comparisons/COMPLETE_FREE_PROJECTS.md).
