@@ -29,3 +29,13 @@
 
 ## Ограничения
 Подобрать настоящий starter kit для каждого жанра и измерить интеграцию — дальнейшая работа. До получения таких данных нельзя помечать отдельную жанровую строку как «исследовано полностью».
+
+## Бесплатные наборы по жанрам (первый проход)
+| Жанр | Кандидатные полностью бесплатные части | Статус |
+|---|---|---|
+| 2D платформер | [Kenney](../Tool_Catalog/kenney-new-platformer-pack.md), Unity Input/Physics2D/Tilemap | [ASSUMED Stack](../21_Compatible_Stacks/FREE_STACKS.md#2d-platformer-free--2d-платформер) |
+| TPS/3D RPG | [Quaternius Base Characters](../Tool_Catalog/quaternius-universal-base-characters.md) + [Animation Library](../Tool_Catalog/quaternius-universal-animation-library.md) + Input/Camera/NavMesh | [ASSUMED Stack](../21_Compatible_Stacks/FREE_STACKS.md#3d-rpg-exploration-free--3d-rpg--tps-exploration) |
+| Sci-fi exploration | [Quaternius Standard](../Tool_Catalog/quaternius-modular-sci-fi-megakit.md) + Unity URP | [ASSUMED Stack](../21_Compatible_Stacks/FREE_STACKS.md#3d-sci-fi-corridor-free--sci-fi-fps--exploration) |
+| Water racing | Boat Attack legacy | Требуется портирование; [reference](../Comparisons/COMPLETE_FREE_PROJECTS.md) |
+
+Это **не завершённая жанровая матрица**: здесь несколько проверенных по источникам решений, ещё нет сборок на целевых платформах.
