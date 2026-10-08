@@ -90,3 +90,34 @@
 
 ### Уточнение лицензии 0x72 DungeonTileset II — 2026-10-08
 После обнаружения отсутствующего LICENSE note в GitHub sample Moonforge найден и проверен **первичный авторский источник** https://0x72.itch.io/dungeontileset-ii. Автор помечает исходные sprites как CC0 1.0 и разрешает коммерческое использование. Оригинальная графика допускается к бесплатному использованию; не найденный файл LICENSE внутри чужой sample — вопрос provenance упаковки, а не отсутствие права на оригинальный pack. Создана отдельная карточка; в новых играх брать оригинальные PNG с itch.io и сохранять license evidence.
+
+
+## Контрольная точка: 2026-10-08 — гонки, survival, строительство, FPS
+
+**Три подтверждённых GitHub-коммита:**
+1. [87616df](https://github.com/spels1992/Unity/commit/87616df29eb0413df21cc8706f06f10b3c5f4660) — **9 карточек** готовых бесплатных исходных решений по Survival, Building, Racing, Vehicle Physics, FPS.
+2. [a8189b7](https://github.com/spels1992/Unity/commit/a8189b72e1d5173798e926671aa30e44ebdf3078) — сравнение, 4 архитектуры без оплаты, метод постоянного исследования и лицензионные исключения.
+3. [883d63e](https://github.com/spels1992/Unity/commit/883d63eb812edbaf16229fc19f34dbefd264eb3b) — 9 навигационных и юридических индексных файлов обновлены.
+
+**Содержательные находки:**
+- [Project Wanderer](Tool_Catalog/project-wanderer-survival.md): Unity 6000.3.13f1, MIT code, day/night, gathering, crafting, storage и save; отдельный StarterAssets license = Unity Companion.
+- [Grid Building System](Tool_Catalog/grid-building-system.md): Unity 6000.3.16f1, MIT, multi-floor building/pathfinding/mesh chunks/save. **Пока два приоритетных live-test кандидата**.
+- [GeoJSON City Builder](Tool_Catalog/geojson-city-builder.md) MIT root, но `com.virgis.geojson.net` 1.2.17 dependency license не подтверждена — BLOCKED_DEPENDENCY.
+- [PolyRace](Tool_Catalog/polyrace-legacy.md) цельная sci-fi racing игра, но Unity 2020 и сторонние art/music/LGPL код; не переносить wholesale в production.
+- [Street Racing](Tool_Catalog/street-racing-free-demo.md) MIT code, однако Asset Store model/road EULA отдельно.
+- [ArcadeVehiclePhysics](Tool_Catalog/arcade-vehicle-physics.md) MIT, Unity 2018 legacy.
+- [TLabVehiclePhysics](Tool_Catalog/tlab-vehicle-physics.md) MIT core, но git-submodules TLab-Spline, TLabCurveTool и другие требуют LICENSE-аудита.
+- [Grid-Based Crafting](Tool_Catalog/grid-based-crafting-system.md) MIT GitHub source; Asset Store путь из README не делать обязательным.
+- [Armour FPS](Tool_Catalog/armour-multiplayer-fps.md) MIT root, но Photon PUN2/Asset Store/Mixamo — отдельные условия, REFERENCE_ONLY.
+
+**Проверка после записи:** GitHub main snapshot содержал 117 файлов и 49 карточек каталога, проверены **284 внутренние ссылки в 12 ключевых документах**, 0 отсутствующих путей. Все девять новых карточек подтверждены в дереве. Эти цифры относятся к снимку перед данным журналом и не являются числом проверок живой игры.
+
+**Без изменения пользовательских Unity/Blender проектов.** Ни одна новая система не проверена нами в PlayMode/Windows Build. Статусы DOCUMENTED или BLOCKED; **EDITOR_VERIFIED = 0**.
+
+### В следующий цикл
+- Приоритеты live-test (изолированные Unity проекты): Project Wanderer и Grid Building System на версиях из ProjectVersion; проверка реальных лицензий ассетов, сборки и сохранений.
+- FPS/TPS: искать **новые полноценные бесплатные gameplay frameworks** без обязательного платного Photon hosting, сравнить с Mirror/бесплатными Unity пакетами.
+- Racing: искать современный поддерживаемый Unity6 транспортный контроллер с полностью аудированной лицензией, в том числе git submodules.
+- World/city: раздельные модули жителей, дорог, транспорта, экономики, зон и коллизий.
+- Продолжить пополнять остальные жанры и Blender каталог бесплатных арт-инструментов.
+- **Никаких дополнительных расходов**, подписок, платных ассетов, API и обязательных облачных серверов.
