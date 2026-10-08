@@ -8,10 +8,13 @@
 | Unity DOTS Samples | ECS/физика/сеть | лицензия уточняется | README; не тестировалось | [DOTS Samples](unity-dots-samples.md) |
 | Mirror | Multiplayer | MIT / бесплатный OSS | license+repo; не тестировалось | [Mirror](mirror-networking.md) |
 | UniTask | Async/core | MIT / бесплатный OSS | license+repo; не тестировалось | [UniTask](unitask.md) |
-| FishNet | Multiplayer | license ещё не подтверждена | README; не тестировалось | [FishNet](fishnet-networking.md) |
+| FishNet | Multiplayer | custom FishNet license, НЕ MIT; прочитана | README; не тестировалось | [FishNet](fishnet-networking.md) |
 | Cinemachine | Camera | official Unity package, terms проверить | Unity 6.3 docs | [Cinemachine](cinemachine.md) |
 | AI Navigation | Navigation | official Unity package, terms проверить | Unity 6.3 docs | [AI Navigation](ai-navigation.md) |
-| Unity Starter Assets, FPS Microgame | Starter kits | Asset Store условия проверить | официальный каталог Unity 6 | [Official starter kits](official-starter-kits.md) |
+| Unity First Person + Third Person Controller | Starter kits | FREE, Non standard EULA | Asset Store: 2.0.1, URP 6000.3; не тестировалось | [Controllers](official-starter-kits.md) |
+| Unity 2D Game Kit | 2D sample project | FREE, Asset Store standard EULA/Extension Asset | v5.0, URP 6000.3; не тестировалось | [2D Game Kit](2d-game-kit.md) |
+| Input System | Ввод | Unity package | 1.20.1 Unity 6.3 docs | [Input System](input-system.md) |
+| FPS Microgame (legacy) | FPS starter, недоступен новым пользователям | deprecated | Asset Store directly says deprecated | [FPS Microgame](fps-microgame-deprecated.md) |
 | Unity Tilemap Extras | 2D level tools | условия проверить | подтверждён переход с 2d-extras | [Tilemap Extras](tilemap-extras.md) |
 
 ## Фильтры
@@ -20,3 +23,5 @@
 - **Сетевые альтернативы:** Mirror, FishNet (не смешивать без явной архитектуры).
 - **Старое/legacy:** Unity FPS Sample (старое, огромный Git LFS проект), 2d-extras Git.
 - **Требует live-теста:** **все** карточки первого прохода.
+
+**Критично:** Unity FPS Microgame и старый FirstPerson пакет DEPRECATED. Не ориентироваться на старую страничку Unity 6 Resources как единственный источник доступности; открывать сам Asset Store.

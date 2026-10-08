@@ -8,7 +8,7 @@
 | AI Navigation | 2.0.15 для 6000.3 | Unity Package | DOC: 6000.3 | Система навигации, не behavior-tree и не combat AI |
 | DOTS Samples | Unity 6.2 + Entities 1.4 и др. | демонстрационные проекты | UNKNOWN; не переносить без теста | ECS и обычный MonoBehaviour workflow требуют специальной интеграции |
 | Mirror | Версию 6.3 в проверенном README не подтверждали | Сетевой фреймворк | UNKNOWN | Не устанавливать вместе с FishNet «для улучшения сети» без проектной архитектуры |
-| FishNet | В проверенном README версия 6.3 не указана | Сетевой фреймворк | UNKNOWN | Альтернатива Mirror, не прямое дополнение |
+| FishNet | В проверенном README версия 6.3 не указана | Сетевой фреймворк | UNKNOWN | Custom licence, не смешивать с Mirror как один transport |
 | UniTask | Точная ветка 6.3 требует проверки | Async библиотека | UNKNOWN | Проверять lifetime и отмену async |
 | FPS Sample | Unity 2018.3.8f1 | учебная игра | UNKNOWN/legacy | HDRP старой версии; требуется портирование |
 | Unity 2d-extras Git repo | upstream объявил прекращение развития | Tilemap scripts | Legacy | Предпочесть Unity Tilemap Extras через UPM |
@@ -23,3 +23,9 @@
 - Набор камер и контроллеров с собственными input/camera managers может дублировать управление.
 - HDRP-only ассеты нельзя считать совместимыми с URP автоматически.
 - Один giant framework и 5 отдельных manager-пакетов часто дублируют инвентарь, input, save и AI: проверить границы ответственности.
+
+| Input System | com.unity.inputsystem 1.20.1 для 6000.3 | Unity Registry | DOC 6000.3 | Согласовать mappings со Starter Controller |
+| Tilemap Extras | com.unity.2d.tilemap.extras 6.0.3 для 6000.3 | Unity Registry | DOC 6000.3 | Старый 2d-extras Git объявлен read-only |
+| First Person + Third Person Controller | Asset Store 2.0.1 (17.09.2026) | Free Asset | DOC URP 6000.3.0f1; Built-in/HDRP нет | Non standard EULA |
+| 2D Game Kit | Asset Store 5.0 (23.03.2026) | Free Asset | DOC URP 6000.3.0f1 | Standard EULA, Extension Asset |
+| FPS Microgame | Asset Store DEPRECATED | Old Asset | Недоступен новым пользователям | НЕ рекомендовать как новый starter |

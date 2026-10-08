@@ -7,7 +7,7 @@
 | Mirror | [LICENSE](https://github.com/MirrorNetworking/Mirror/blob/master/LICENSE) | MIT, файл прочитан | Можно использовать и изменять с сохранением copyright/лицензии |
 | UniTask | [LICENSE](https://github.com/Cysharp/UniTask/blob/master/LICENSE) | MIT, файл прочитан | Сохранять copyright/лицензионное уведомление |
 | FPS Sample | [LICENSE.md](https://github.com/Unity-Technologies/FPSSample/blob/master/LICENSE.md) | Unity Companion License, файл прочитан | Не классифицировать как MIT; проверить отдельные ограничения |
-| FishNet | [Repo](https://github.com/FirstGearGames/FishNet) | **НЕ УСТАНОВЛЕНА**: root LICENSE не найден | Не делать правовых выводов до проверки Asset Store/условий отдельных компонентов |
+| FishNet | [LICENSE.md](https://github.com/FirstGearGames/FishNet/blob/main/LICENSE.md) | **Custom FishNet License**, файл прочитан 2026-10-08 | Безвозмездное использование для игр; **запрет использования в конкурирующих networking products**; Pro/third-party — отдельные условия |
 | DOTS Samples | [Repo](https://github.com/Unity-Technologies/EntityComponentSystemSamples) | **НЕ УСТАНОВЛЕНА** (GitHub metadata NOASSERTION) | Искать LICENSE каждого подпроекта до копирования |
 | Unity packages | [Unity terms](https://unity.com/legal) | Пакет-специфичные условия | Проверить Unity Companion/Package Terms и связанные лицензии |
 | Asset Store starter assets | [Asset Store EULA](https://unity.com/legal/as-terms) | Подчиняются Asset Store EULA/типу лицензии | Бесплатная цена не означает разрешение распространять архив ассетов отдельно |
@@ -19,3 +19,6 @@
 4. Ограничения на использование Unity-специфичных ассетов вне Unity.
 5. Совместимость нескольких лицензий при комбинации систем (GPL/LGPL/MPL/Unity Companion/Asset Store).
 6. Если не найдено — статус **НЕ УСТАНОВЛЕНА**, не копировать и не публиковать бинарники на основе спорного кода.
+
+| First Person + Third Person Controller | [Asset Store](https://assetstore.unity.com/packages/3d/characters/first-person-third-person-character-controllers-196526) | **Non standard EULA**, текст ещё требует отдельной проверки | Не объявлять стандартной Asset Store лицензией |
+| 2D Game Kit | [Asset Store](https://assetstore.unity.com/packages/templates/packs/2d-game-kit-2d-sample-project-107098) | Standard Asset Store EULA, Extension Asset | Изучить ограничения redistribution, особенно при упаковке в reusable tool |
