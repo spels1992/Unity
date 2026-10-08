@@ -103,3 +103,10 @@
 - [Бесплатный audio workflow](14_Audio/FREE_SOUND_PIPELINE.md) — 5 отдельных Kenney CC0 наборов, всего **385 файлов** по авторским карточкам; Unity mixer, 2D/3D playback, оптимизация.
 - [Сравнение методов](Comparisons/FREE_BLENDER_TEXTURE_AUDIO_GLTF.md), почему GLB удобнее для PBR, а FBX — надёжный fallback без сторонних Unity пакетов.
 - Все версии и лицензии документированы, **совместимость в нашем редакторе пока не подтверждена**. Политика ZERO COST действует.
+
+
+## Новая коллекция 09.10.2026 — бесплатные леса, анимации, губы, CC0 музыка
+- [Blender леса/древесная растительность и LOD](18_Blender_Integration/FREE_FOLIAGE_LOD_PIPELINE.md): Geometry Nodes, Sapling, Generate Tree, Modular Tree, Decimate.
+- [Перенос анимаций и синхронизация губ](05_Animation/FREE_RETARGET_LIPSYNC_PIPELINE.md): Retarget для Blender 5, Rokoko бесплатный offline retarget, Rhubarb Lip Sync NG/CLI без платных сервисов.
+- [Конкретные музыкальные наборы CC0](14_Audio/FREE_CC0_MUSIC_COLLECTION.md): **не менее 18 точно заявленных композиций**, плюс 5 ZIP сборок без подсчитанного числа треков.
+- [Сравнение и ограничения](Comparisons/FREE_FOLIAGE_ANIMATION_MUSIC.md). Новые карточки в [Tool Catalog](Tool_Catalog/INDEX.md). **Blender/Unity не запускались**, все статусы документальные.

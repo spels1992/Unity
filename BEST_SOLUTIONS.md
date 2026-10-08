@@ -72,3 +72,17 @@
 | UI/RPG/impact/sci-fi звуки | [Kenney отдельные CC0 наборы](14_Audio/FREE_SOUND_PIPELINE.md) | Собственные записи с лицензией |
 
 **Unity glTFast main preview 6.20.1-pre.1 не считать production stable**; выбрать Registry stable package и проверить Shader Graph variants при Player Build. [Полное руководство](18_Blender_Integration/FREE_GLTF_RIG_UV_PRODUCTION.md).
+
+
+## Бесплатные источники готовой анимации/леса/музыки (09.10.2026)
+| Для чего | Выбрать сначала | Сильная сторона / caveat |
+|---|---|---|
+| Массовая трава и кустарники | [Geometry Nodes](Tool_Catalog/blender-geometry-nodes-free.md) | Бесплатно встроено; instances нужно перенести в Unity корректно |
+| Генерировать лес | [YGForge](Tool_Catalog/blender-lowpoly-tree-generator.md) либо [Modular Tree](Tool_Catalog/blender-modular-tree.md) | Free GPL addons; v5+ и 4.3.1+ соответственно |
+| Создать LOD mesh | [Decimate](Tool_Catalog/blender-decimate-lod-free.md) | Встроенный и бесплатный, но не автоматическая гарантия качества |
+| Retarget Blender 5 | [Retarget KBS](Tool_Catalog/blender-retarget-kbs.md) | GPL; presets для разных rig |
+| Ретаргет без платного Rokoko Studio | [Rokoko Blender](Tool_Catalog/blender-rokoko-retarget.md) | Бесплатный retarget по официальной справке, LGPL-код |
+| Липсинк | [Rhubarb NG](Tool_Catalog/rhubarb-lip-sync-ng-blender.md) | MIT, не TTS; русскую речь отдельно тестировать |
+| CC0 BGM для игр | [OpenGameArt 4 выбранные пакета](14_Audio/FREE_CC0_MUSIC_COLLECTION.md) | 18 заявленных треков + 5 архивов, конкретная CC0 license на каждой странице |
+
+[Сравнение](Comparisons/FREE_FOLIAGE_ANIMATION_MUSIC.md). **Статус DOCUMENTED.**

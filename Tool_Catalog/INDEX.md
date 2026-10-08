@@ -114,3 +114,27 @@
 | Music Jingles | 85 | Короткие победные музыкальные темы | [Открыть](kenney-music-jingles.md) |
 
 **Всего: 385 аудиофайлов по официальным страницам, все пять наборов CC0.** Это не равно полной готовой аудиосистеме. [Аудиопайплайн](../14_Audio/FREE_SOUND_PIPELINE.md) и [3D-пайплайн](../18_Blender_Integration/FREE_GLTF_RIG_UV_PRODUCTION.md).
+
+
+## Новые бесплатные Blender инструменты для деревьев, LOD, ретаргета и губ (09.10.2026)
+| Решение | Назначение | Лицензия | Версия/пределы | Карточка |
+|---|---|---|---|---|
+| Geometry Nodes | Scatter травы/веток/инстансов | Blender GPL | Встроенный | [Открыть](blender-geometry-nodes-free.md) |
+| Blender Decimate | Подготовка мешей для LOD | Blender GPL | Встроенный | [Открыть](blender-decimate-lod-free.md) |
+| Sapling Tree | Деревья параметрами | GPLv3+ | v0.3.7; Blender 5 animation known issues | [Открыть](blender-sapling-tree.md) |
+| YGForge Generate Tree | Low-poly деревья/seed | GPLv3+ | v1.1.5; Blender 5.0.1+ | [Открыть](blender-lowpoly-tree-generator.md) |
+| Modular Tree | Нодовые деревья и листья | GPLv3+ addon, MIT core | v5.5.2, Blender 4.3.1+ | [Открыть](blender-modular-tree.md) |
+| Retarget KBS-DEV | FBX→Humanoid движение | GPLv3+ | Blender 5+, v5.2.0 | [Открыть](blender-retarget-kbs.md) |
+| Rokoko Retarget | Бесплатный перенос armature | **LGPLv3** по LICENSE, не MIT badge | Studio/оборудование опциональны | [Открыть](blender-rokoko-retarget.md) |
+| Rhubarb Lip Sync NG | Губы по записанному звуку | MIT | v1.8.1, Windows/macOS/Linux | [Открыть](rhubarb-lip-sync-ng-blender.md) |
+| Rhubarb CLI | Offline mouth cue data | MIT + notices | Отдельный бесплатный CLI | [Открыть](rhubarb-cli-open-source.md) |
+
+## Бесплатные CC0 музыкальные композиции (конкретные авторские страницы)
+| Набор | Тематика | Подтверждённое число | Лицензия | Карточка |
+|---|---|---:|---|---|
+| SubspaceAudio Music Loops | Chiptune/action | 12 | CC0 | [Открыть](music-opengameart-subspace-12.md) |
+| pauliuw Music Loops | Puzzle/background | 4 | CC0 | [Открыть](music-opengameart-puzzle-loops.md) |
+| qubodup Two Simple Game Loops | Menu/level BGM | 2 | CC0 | [Открыть](music-opengameart-qubodup-2.md) |
+| drakzlin Music Loops | Action/battle/horror/chiptune | Не подсчитано, 5 ZIP | CC0 | [Открыть](music-opengameart-drakzlin-loops.md) |
+
+[Лес/LOD](../18_Blender_Integration/FREE_FOLIAGE_LOD_PIPELINE.md) · [Анимация/губы](../05_Animation/FREE_RETARGET_LIPSYNC_PIPELINE.md) · [Музыкальные подборки](../14_Audio/FREE_CC0_MUSIC_COLLECTION.md).

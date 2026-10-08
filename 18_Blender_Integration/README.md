@@ -23,3 +23,7 @@
 - [Сравнение инструментов](../Comparisons/FREE_BLENDER_TEXTURE_AUDIO_GLTF.md).
 - **Важный нюанс:** Khronos glTF exporter входит в Blender 2.8+, но Unity glTFast — отдельный бесплатный UPM. У preview main `6.20.1-pre.1` стабильность не доказана, выбирать стабильную совместимую версию Unity Registry.
 - Rigify control rigs/Blender Shader Nodes не экспортируются в Unity магически: bake animations/material maps; затем проверять Player build.
+
+
+## Расширение 09.10.2026: Geometry Nodes, low-poly лес и LOD
+[FREE_FOLIAGE_LOD_PIPELINE.md](FREE_FOLIAGE_LOD_PIPELINE.md) — сравнение встроенных Geometry Nodes и Decimate с бесплатными Sapling, YGForge и Modular Tree. **Переход из процедурного Blender в Unity требует bake/real mesh, prefab и проверки LODGroup, Unity не импортирует сам Blender graph.** Подробнее [Retarget и lip-sync](../05_Animation/FREE_RETARGET_LIPSYNC_PIPELINE.md).

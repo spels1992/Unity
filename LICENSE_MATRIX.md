@@ -92,3 +92,19 @@
 | [Kenney 5 аудионаборов](14_Audio/FREE_SOUND_PIPELINE.md) | [CC0 отдельно в каждой карточке](https://kenney.nl/assets/ui-audio) | Не превращать все чужие интернет-аудиофайлы в CC0 |
 
 **Все являются бесплатными путями с указанными правами, но real Unity/Blender editor tests = 0.** Стоимость дополнительной установки 0 ₽, платный All-in-1 Kenney не используется.
+
+
+## Добавление 09.10.2026: foliage, LOD, lipsync, CC0 music
+| Решение | Условия и официальное доказательство | Нюанс |
+|---|---|---|
+| [Geometry Nodes и Decimate](18_Blender_Integration/FREE_FOLIAGE_LOD_PIPELINE.md) | [Blender GPL](https://www.blender.org/about/license/) | Лицензии текстур и исходных моделей отдельно |
+| [Sapling Tree Gen](Tool_Catalog/blender-sapling-tree.md) | [GPLv3+ v0.3.7](https://extensions.blender.org/add-ons/sapling-tree-gen/versions/) | Bl5 animation bug reports |
+| [YGForge LowPolyTree](Tool_Catalog/blender-lowpoly-tree-generator.md) | [GPL-3.0+ manifest](https://github.com/YGForge/LowPolyTreeGen/blob/main/blender_manifest.toml) | Не превращает чужие textures в свободные |
+| [Modular Tree](Tool_Catalog/blender-modular-tree.md) | [GPL addon, MIT core](https://extensions.blender.org/add-ons/modular-tree/) | Pivot painter экспорт — file permissions |
+| [Retarget KBS](Tool_Catalog/blender-retarget-kbs.md) | [GPLv3](https://github.com/KBSBAUDRICE/Retarget/blob/main/LICENSE) | Source animations с отдельными правами |
+| [Rokoko Blender](Tool_Catalog/blender-rokoko-retarget.md) | [LGPLv3 LICENSE.md](https://github.com/Rokoko/rokoko-studio-live-blender/blob/master/LICENSE.md) | **README MIT badge НЕ СООТВЕТСТВУЕТ LICENSE!** |
+| [Rhubarb Lipsync NG](Tool_Catalog/rhubarb-lip-sync-ng-blender.md) | [MIT](https://github.com/Premik/blender_rhubarb_lipsync_ng/blob/master/LICENSE) | Голос, модели/shape keys с собственными правами |
+| [Rhubarb CLI](Tool_Catalog/rhubarb-cli-open-source.md) | [MIT + notices](https://github.com/DanielSWolf/rhubarb-lip-sync/blob/master/LICENSE.md) | Third-party notices, mouth output own |
+| [4 CC0 музыкальных набора](14_Audio/FREE_CC0_MUSIC_COLLECTION.md) | [OpenGameArt exact author cards](https://opengameart.org/content/12-music-loops) | Не весь сайт CC0; архивы не зеркалить |
+
+GPL, MIT, LGPL лицензируют программу/скрипт, а не автоматически каждый входной аудио/изображение. Никаких платных API/subscriptions.

@@ -112,3 +112,22 @@
 | [Kenney RPG Audio](https://kenney.nl/assets/rpg-audio) | CC0, 50 files |
 | [Kenney Sci-fi Sounds](https://kenney.nl/assets/sci-fi-sounds) | CC0, 70 files |
 | [Kenney Music Jingles](https://kenney.nl/assets/music-jingles) | CC0, 85 files |
+
+
+## Источники 09.10.2026: Blender foliage / retarget / lipsync / CC0 музыка
+| Источник | Подтверждённое |
+|---|---|
+| [Blender Geometry Nodes](https://docs.blender.org/manual/en/4.5/modeling/geometry_nodes/index.html) | Встроенные instances/scattering/nodes |
+| [Blender Decimate](https://docs.blender.org/manual/en/4.5/modeling/modifiers/generate/decimate.html) | Сокращение полигонажа |
+| [Sapling Tree](https://extensions.blender.org/add-ons/sapling-tree-gen/versions/) | 0.3.7 GPLv3+ Blender 4.4+, отзывы о проблемах animation |
+| [YGForge LowPolyTree](https://github.com/YGForge/LowPolyTreeGen/blob/main/blender_manifest.toml) | GPLv3+, v1.1.5 Blender 5.0.1+ |
+| [Modular Tree](https://extensions.blender.org/add-ons/modular-tree/versions/) | GPLv3+ addon, 5.5.2, Blender4.3.1+ |
+| [KBS Retarget](https://github.com/KBSBAUDRICE/Retarget) | GPLv3, Blender5, retarget presets |
+| [Rokoko license](https://github.com/Rokoko/rokoko-studio-live-blender/blob/master/LICENSE.md) | LGPLv3, хотя badge README MIT |
+| [Rokoko free retarget](https://support.rokoko.com/hc/en-us/articles/4410463481489-Retarget-an-animation-in-Blender) | Retarget функция без Premium |
+| [Rhubarb NG](https://github.com/Premik/blender_rhubarb_lipsync_ng) | MIT, Blender manifest 1.8.1 |
+| [Rhubarb CLI license](https://github.com/DanielSWolf/rhubarb-lip-sync/blob/master/LICENSE.md) | MIT core и notices |
+| [OpenGameArt SubspaceAudio](https://opengameart.org/content/12-music-loops) | CC0, 12 chiptune loops |
+| [OpenGameArt pauliuw](https://opengameart.org/content/music-loops) | CC0, 4 puzzle tracks |
+| [OpenGameArt qubodup](https://opengameart.org/content/two-simple-game-music-loops) | CC0, 2 looped OGG/WAV tracks |
+| [OpenGameArt drakzlin](https://opengameart.org/content/music-loops-0) | CC0; 5 themed ZIP files, track count unknown |

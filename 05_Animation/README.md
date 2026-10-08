@@ -12,3 +12,6 @@
 - Какие альтернативы и известные риски, что тестировать перед производством?
 
 **Статус:** каталог направления ещё не заполнен полностью; см. [ROADMAP](../ROADMAP.md).
+
+## Новые бесплатные анимационные решения
+[FREE_RETARGET_LIPSYNC_PIPELINE.md](FREE_RETARGET_LIPSYNC_PIPELINE.md) — перенос движений между rig в Blender 5 через Retarget, бесплатный Rokoko retarget, Rhubarb Lip Sync NG/CLI для mouth cues из голоса. **Rokoko LICENSE LGPL-3.0, его MIT badge в README некорректен.** Русский lip-sync ещё не испытывался. Бюджет 0 ₽, без покупки Studio/mocap/внешних AI сервисов.

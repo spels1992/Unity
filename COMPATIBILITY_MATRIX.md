@@ -86,3 +86,20 @@
 | [Kenney CC0 audio](14_Audio/FREE_SOUND_PIPELINE.md) | 50 + 130 + 50 + 70 + 85 files | NOT_IMPORTED |
 
 **Нельзя** считать glTFast runtime export/render совпадающим без проверки Player Build shader variants. См. [3D-гайд](18_Blender_Integration/FREE_GLTF_RIG_UV_PRODUCTION.md).
+
+
+## Дополнительные Blender/audio кандидаты, 09.10.2026 — ТОЛЬКО ДОКУМЕНТАЦИЯ
+| Решение | Заявленная upstream версия | Наш статус |
+|---|---|---|
+| [Geometry Nodes](Tool_Catalog/blender-geometry-nodes-free.md) | Built-in Blender 4.5, procedural scatter | NOT_RUN / export bake нужен |
+| [Decimate LOD](Tool_Catalog/blender-decimate-lod-free.md) | Blender built-in | NOT_RUN / geometry QA |
+| [Sapling Tree](Tool_Catalog/blender-sapling-tree.md) | v0.3.7, Blender 4.4+; 5.x animation complaints | NOT_RUN |
+| [YGForge LowPolyTree](Tool_Catalog/blender-lowpoly-tree-generator.md) | 1.1.5, Blender 5.0.1+ | NOT_RUN |
+| [Modular Tree](Tool_Catalog/blender-modular-tree.md) | 5.5.2, Blender 4.3.1+; 5.1 support | NOT_RUN |
+| [Retarget KBS](Tool_Catalog/blender-retarget-kbs.md) | 5.2.0, Blender 5.0+ | NOT_RUN |
+| [Rokoko Retarget](Tool_Catalog/blender-rokoko-retarget.md) | Blender 2.80+ claimed, live extra software optional | NOT_RUN, license LGPL |
+| [Rhubarb NG](Tool_Catalog/rhubarb-lip-sync-ng-blender.md) | 1.8.1, Blender min 3.3, 4.2+ extension | NOT_RUN, Russian QA unknown |
+| [Rhubarb CLI](Tool_Catalog/rhubarb-cli-open-source.md) | Offline CLI, cross-platform | NOT_RUN |
+| [Music bundles](14_Audio/FREE_CC0_MUSIC_COLLECTION.md) | CC0 exact pages, 12+4+2 declared, 5 ZIP unknown | NOT_IMPORTED |
+
+**TESTED/VERIFIED в нашем Blender/Unity по этому новому блоку: ноль.**
