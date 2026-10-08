@@ -22,3 +22,10 @@
 | [Unity install from Git URL](https://docs.unity.com/en-us/engine/6000.6/manual/packages-list/managing-packages-window/upm-ui-actions/upm-ui-giturl) | Требования к Git/UPM/Git LFS и способы установки |
 
 Каждая карточка хранит собственные источники, даты и ограничения. Статус «по документации» не повышать до «проверено в Editor» без теста.
+
+| [Unity ToS (30.06.2026)](https://unity.com/legal/terms-of-service) | Section 17.2: Authorized Agentic Access, plugins, scraping restrictions |
+| [Unity Discussions 01.07.2026](https://discussions.unity.com/t/new-terms-of-service-is-unity-restricting-local-ai-tools-and-ai-training/1724661/6) | Unity answer about AI in own projects and authorized third party access |
+| [Unity AI docs](https://docs.unity.com/en-us/ai) | Official AI integrations |
+| [Unity AI menu prereqs](https://docs.unity.com/en-us/engine/6000.5/manual/unity-ai/ai-menu-access) | Version/project prerequisites |
+| [CoplayDev LICENSE](https://github.com/CoplayDev/unity-mcp/blob/main/LICENSE) | MIT source |
+| [CoderGamester LICENSE.md](https://github.com/CoderGamester/mcp-unity/blob/main/LICENSE.md) | MIT source |

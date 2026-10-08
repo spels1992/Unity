@@ -25,3 +25,8 @@
 - **Требует live-теста:** **все** карточки первого прохода.
 
 **Критично:** Unity FPS Microgame и старый FirstPerson пакет DEPRECATED. Не ориентироваться на старую страничку Unity 6 Resources как единственный источник доступности; открывать сам Asset Store.
+
+| CoplayDev MCP for Unity | AI/Editor MCP | MIT | Unity Authorized Agentic Access НЕ подтверждён | [CoplayDev](coplaydev-unity-mcp.md) |
+| CoderGamester MCP Unity | AI/Editor MCP | MIT | Unity Authorized Agentic Access НЕ подтверждён | [CoderGamester](codergamester-mcp-unity.md) |
+
+[Важные условия подключения MCP](../19_AI_Automation/UNITY_MCP_AND_TERMS.md).
