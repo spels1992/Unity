@@ -1,0 +1,1 @@
+Primary GitHub plugin write test. 2026-10-09. No GitHub Actions used.
