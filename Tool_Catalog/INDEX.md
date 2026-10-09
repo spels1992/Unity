@@ -161,3 +161,10 @@
 - **Unity Audio Manager Pool** (Audio systems): https://github.com/MohammadMahdi-Abdolhosseini/Unity-Audio-Manager — MIT; size UNKNOWN; editor NOT_TESTED.
 - **Unity Audio Manager** (Audio systems): https://github.com/MathewHDYT/Unity-Audio-Manager — MIT; size UNKNOWN; editor NOT_TESTED.
 - **VisualTerrain** (Terrain generation): https://github.com/RobProductions/VisualTerrain — MIT; size UNKNOWN; editor NOT_TESTED.
+
+
+### H16 recovery candidates (source references; NOT_TESTED)
+- **AudioConductor** (Audio systems): https://github.com/CyberAgentGameEntertainment/AudioConductor — MIT; size UNKNOWN; editor NOT_TESTED.
+- **HIDrogen** (Input systems): https://github.com/TheNathannator/HIDrogen — MIT; size UNKNOWN; editor NOT_TESTED.
+- **InputManager** (Input systems): https://github.com/daemon3000/InputManager — MIT; size UNKNOWN; editor NOT_TESTED.
+- **Simply Localize** (LOCALIZATION): https://github.com/RenKOFFF/Simply-Localize-Localization-System-for-Unity — MIT; size UNKNOWN; editor NOT_TESTED.
