@@ -1,0 +1,57 @@
+name: Research fallback inbox (manual only)
+run-name: Fallback research save
+on:
+  workflow_dispatch:
+    inputs:
+      payload_b64:
+        description: Base64 UTF-8 JSON research report, only if direct GitHub plugin save failed
+        required: true
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: research-fallback-${{ github.repository }}
+  cancel-in-progress: false
+jobs:
+  save:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+      - name: Validate and write fallback payload
+        env:
+          PAYLOAD_B64: ${{ inputs.payload_b64 }}
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import os,base64,json,pathlib
+          raw=base64.b64decode(os.environ['PAYLOAD_B64'],validate=True)
+          if not 1 <= len(raw) <= 40000: raise ValueError('payload size outside 1..40000 bytes')
+          report=json.loads(raw.decode('utf-8'))
+          if not isinstance(report,dict) or not isinstance(report.get('content'),str) or not report['content'].strip(): raise ValueError('content required')
+          if len(report['content'].encode('utf-8'))>35000: raise ValueError('content too large')
+          if not isinstance(report.get('source'),str) or report['source'] not in ('ChatGPT-Blender','ChatGPT-Unity'): raise ValueError('invalid source')
+          repo=os.environ['GITHUB_REPOSITORY'].split('/')[-1]
+          if report['source']!='ChatGPT-'+repo: raise ValueError('source/repo mismatch')
+          target=pathlib.Path('Research_Inbox') / ('fallback-'+os.environ['GITHUB_RUN_ID']+'.md')
+          target.parent.mkdir(parents=True,exist_ok=True)
+          target.write_text('# Research fallback inbox\n\nSource: '+report['source']+'\n\n'+report['content']+'\n',encoding='utf-8')
+          print('Saved:',target)
+          PY
+      - name: Commit with retry on concurrent writes
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Research_Inbox/
+          git commit -m "research: save emergency fallback report"
+          for attempt in 1 2 3 4 5; do
+            git fetch origin "${GITHUB_REF_NAME}"
+            git rebase "origin/${GITHUB_REF_NAME}"
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then exit 0; fi
+            sleep "$((attempt * 2))"
+          done
+          exit 1
