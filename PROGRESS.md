@@ -218,3 +218,8 @@
 - [INDEX](Tool_Catalog/INDEX.md) дополнен ссылками на эти карточки и исправлен устаревший статус Vivian Ménard Boids; коммит [94528d3](https://github.com/spels1992/Unity/commit/94528d38ec54c3c8604e4c0ffcb7453e465ee1b9).
 - H16 очередь кандидатов в Research_Archive уже сохранена, однако не означает подтверждение лицензий и версий каждого проекта.
 - DOCUMENTED / NOT_RUN, 0 ₽; Unity/Blender/DAW не запускались. Далее — сверка подробных резервных материалов и канонизация проверенных кандидатов.
+
+
+## 2026-10-09 — H16 canonical source index reconciliation
+- 16/16 H13-H15 recovered source URLs linked from `Tool_Catalog/INDEX.md` in four small commits; readback confirmed all 16 links. Full metadata remains in `Research_Archive/H16_PENDING_FULL_METADATA_20261009.json` and `Research_Archive/H15_UNITY_NINE_FULL_METADATA_RECOVERY_20261009.json`.
+- Source index reconciliation PASS; semantic deduplication, independent license/dependency validation and editor tests still pending. Download sizes UNKNOWN/null; editors NOT_TESTED. No external archives downloaded; no additional spending.
