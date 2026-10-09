@@ -182,3 +182,27 @@
 - **SST Pooling** (POOLING): https://github.com/SST-Systems/Pooling — MIT; size UNKNOWN; editor NOT_TESTED.
 - **uPools** (POOLING): https://github.com/AnnulusGames/uPools — MIT; size UNKNOWN; editor NOT_TESTED.
 - **Unity.ObjectPooling** (POOLING): https://github.com/grashaar/Unity.ObjectPooling — MIT; size UNKNOWN; editor NOT_TESTED.
+
+
+## H13–H16: 16 восстановленных карточек метаданных, 2026-10-09
+
+Это перенос из Research_Archive/H16_PENDING_FULL_METADATA_20261009.json и Research_Archive/H15_UNITY_NINE_FULL_METADATA_RECOVERY_20261009.json, **не повторный аудит первоисточников и не подтверждение работы в Unity 6.3**.
+
+| Проект | Раздел | Лицензия в исходном реестре | Статус |
+|---|---|---|---|
+| [UberAudio](recovered-uberaudio.md) | Audio systems | MIT | RECOVERED_METADATA / NOT_RUN |
+| [Unity Audio Manager Pool](recovered-unity-audio-manager-pool.md) | Audio systems | MIT | RECOVERED_METADATA / NOT_RUN |
+| [Unity Audio Manager](recovered-unity-audio-manager.md) | Audio systems | MIT | RECOVERED_METADATA / NOT_RUN |
+| [VisualTerrain](recovered-visualterrain.md) | Terrain generation | MIT | RECOVERED_METADATA / NOT_RUN |
+| [AudioConductor](recovered-audioconductor.md) | Audio systems | MIT | RECOVERED_METADATA / NOT_RUN |
+| [HIDrogen](recovered-hidrogen.md) | Input systems | MIT | RECOVERED_METADATA / NOT_RUN |
+| [InputManager](recovered-inputmanager.md) | Input systems | MIT | RECOVERED_METADATA / NOT_RUN |
+| [Simply Localize](recovered-simply-localize.md) | LOCALIZATION | MIT | RECOVERED_METADATA / NOT_RUN |
+| [Unity Simple Localization](recovered-unity-simple-localization.md) | LOCALIZATION | MIT | RECOVERED_METADATA / NOT_RUN |
+| [Localization-Unity](recovered-localization-unity.md) | LOCALIZATION | MIT | RECOVERED_METADATA / NOT_RUN |
+| [Ibralogue](recovered-ibralogue.md) | DIALOGUE | MIT | RECOVERED_METADATA / NOT_RUN |
+| [Yarn Spinner Unity](recovered-yarn-spinner-unity.md) | DIALOGUE | MIT | RECOVERED_METADATA / NOT_RUN |
+| [Scriptable Dialogue Toolkit](recovered-scriptable-dialogue-toolkit.md) | DIALOGUE | MIT | RECOVERED_METADATA / NOT_RUN |
+| [SST Pooling](recovered-sst-pooling.md) | POOLING | MIT | RECOVERED_METADATA / NOT_RUN |
+| [uPools](recovered-upools.md) | POOLING | MIT | RECOVERED_METADATA / NOT_RUN |
+| [Unity.ObjectPooling](recovered-unity-objectpooling.md) | POOLING | MIT | RECOVERED_METADATA / NOT_RUN |
