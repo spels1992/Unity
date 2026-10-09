@@ -1,0 +1,23 @@
+name: Research archive integrity check
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+permissions:
+  contents: read
+jobs:
+  verify-archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify research files and print audit evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s PROGRESS.md
+          echo "Repository: $GITHUB_REPOSITORY"
+          echo "Commit: $GITHUB_SHA"
+          echo "Progress SHA256:"
+          sha256sum PROGRESS.md
+          echo "Archive integrity check PASS (read-only)"
