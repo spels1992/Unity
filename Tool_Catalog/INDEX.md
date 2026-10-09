@@ -175,3 +175,10 @@
 - **Localization-Unity** (LOCALIZATION): https://github.com/PicoShot/Localization-Unity — MIT; size UNKNOWN; editor NOT_TESTED.
 - **Ibralogue** (DIALOGUE): https://github.com/Ibralogue/Ibralogue — MIT; size UNKNOWN; editor NOT_TESTED.
 - **Yarn Spinner Unity** (DIALOGUE): https://github.com/YarnSpinnerTool/YarnSpinner-Unity — MIT; size UNKNOWN; editor NOT_TESTED.
+
+
+### H16 recovery candidates (source references; NOT_TESTED)
+- **Scriptable Dialogue Toolkit** (DIALOGUE): https://github.com/Auri304/Scriptable-Dialogue-Toolkit-for-Unity — MIT; size UNKNOWN; editor NOT_TESTED.
+- **SST Pooling** (POOLING): https://github.com/SST-Systems/Pooling — MIT; size UNKNOWN; editor NOT_TESTED.
+- **uPools** (POOLING): https://github.com/AnnulusGames/uPools — MIT; size UNKNOWN; editor NOT_TESTED.
+- **Unity.ObjectPooling** (POOLING): https://github.com/grashaar/Unity.ObjectPooling — MIT; size UNKNOWN; editor NOT_TESTED.
