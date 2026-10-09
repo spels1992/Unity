@@ -223,3 +223,13 @@
 ## 2026-10-09 — H16 canonical source index reconciliation
 - 16/16 H13-H15 recovered source URLs linked from `Tool_Catalog/INDEX.md` in four small commits; readback confirmed all 16 links. Full metadata remains in `Research_Archive/H16_PENDING_FULL_METADATA_20261009.json` and `Research_Archive/H15_UNITY_NINE_FULL_METADATA_RECOVERY_20261009.json`.
 - Source index reconciliation PASS; semantic deduplication, independent license/dependency validation and editor tests still pending. Download sizes UNKNOWN/null; editors NOT_TESTED. No external archives downloaded; no additional spending.
+
+
+## 2026-10-09 — 16 H13–H16 карточек очереди восстановлены и прочитаны
+
+- 7 записей исходного файла `Research_Archive/H16_PENDING_FULL_METADATA_20261009.json`: UberAudio, Unity Audio Manager Pool, Unity Audio Manager, VisualTerrain, AudioConductor, HIDrogen, InputManager.
+- 9 записей `Research_Archive/H15_UNITY_NINE_FULL_METADATA_RECOVERY_20261009.json`: Simply Localize, Unity Simple Localization, Localization-Unity, Ibralogue, Yarn Spinner Unity, Scriptable Dialogue Toolkit, SST Pooling, uPools, Unity.ObjectPooling.
+- Для каждой записи создана отдельная карточка `Tool_Catalog/recovered-*.md`, присутствие и содержимое проверено GitHub readback. Полная метаинформация ранее уже сохранена в JSON; новые карточки — структурированные выжимки, не дословная замена оригиналов.
+- Индекс `Tool_Catalog/INDEX.md` пополнен 16 ссылками, commit [e3491fa](https://github.com/spels1992/Unity/commit/e3491fa8ba96fe36dc2c1f0668375a6cc133efb3).
+- **Статус:** RECOVERED_METADATA / DOCUMENTED / NOT_RUN; версии и лицензии приведены из исследования 2026-10-09, не выполнялся новый upstream audit; Unity/Blender не запускались, 0 ₽.
+- **Остаётся:** полный master dedup со всеми файлами GitHub (включая Blender 23 кандидата), аудит первоисточников/лицензий/версий и других подробных бэкапов. Полное сохранение всех материалов не подтверждено.
