@@ -1,0 +1,20 @@
+{
+  "checkpoint": "H10-20261009",
+  "kind": "research_delta_index",
+  "new_technologies": 3,
+  "items": [
+    "VitalRouter",
+    "MemoryPack",
+    "Unity ML-Agents"
+  ],
+  "card_file": "Research_Archive/H10_20261009_FREE_TECH_CARDS.json",
+  "canonical_tool_catalog_updated": false,
+  "licenses": {
+    "MIT": 2,
+    "Apache-2.0": 1
+  },
+  "unity_editor_test": "NOT_TESTED",
+  "download_size_bytes_verified_count": 0,
+  "total_download_bytes": null,
+  "next": "canonical Tool_Catalog cards and real isolated Editor tests"
+}
