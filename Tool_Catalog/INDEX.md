@@ -154,3 +154,10 @@
 ## Бесплатные офлайн-аудиоредакторы — подтверждённые карточки
 - [LMMS 1.2.2](lmms-free.md) — GPL-2.0, создание музыки локально, DOCUMENTED / NOT_RUN.
 - [Audacity 4.0.1](audacity-free.md) — GPLv3, обработка звука и речи локально, DOCUMENTED / NOT_RUN.
+
+
+### H16 recovery candidates (source references; NOT_TESTED)
+- **UberAudio** (Audio systems): https://github.com/bbbscarter/UberAudio — MIT; size UNKNOWN; editor NOT_TESTED.
+- **Unity Audio Manager Pool** (Audio systems): https://github.com/MohammadMahdi-Abdolhosseini/Unity-Audio-Manager — MIT; size UNKNOWN; editor NOT_TESTED.
+- **Unity Audio Manager** (Audio systems): https://github.com/MathewHDYT/Unity-Audio-Manager — MIT; size UNKNOWN; editor NOT_TESTED.
+- **VisualTerrain** (Terrain generation): https://github.com/RobProductions/VisualTerrain — MIT; size UNKNOWN; editor NOT_TESTED.
