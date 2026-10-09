@@ -197,3 +197,9 @@
 ## 2026-10-09: восстановление восьми конспектов
 
 В Research_Archive/2026-10-08-09 сохранены и повторно прочитаны 8 документов: NPC, multiplayer games, networking, 2D editors, procgen, localization, Addressables и audio. DOCUMENTED / NOT_RUN, 0 ₽. Полные подробные резервные Markdown ещё не перенесены дословно; необходимо продолжить восстановление и сверить дубли.
+
+
+## 2026-10-09 — H16 recovery, full backup metadata persisted
+- Complete pending research metadata recovered and verified by GitHub readback. This is a research **queue**, not canonical adoption or editor PASS.
+- 7 H13/H14 records: `Research_Archive/H16_PENDING_FULL_METADATA_20261009.json`; 9 H15 records: `Research_Archive/H15_UNITY_NINE_FULL_METADATA_RECOVERY_20261009.json`; URL list: `Research_Archive/H16_PENDING_RECOVERY_20261009.md`.
+- Need master index deduplication, individual license/dependency review and canonical card promotion. Exact sizes UNKNOWN/null; Unity/Blender editor NOT_TESTED; no large archives downloaded, no new costs.
