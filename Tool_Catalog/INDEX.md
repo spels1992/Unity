@@ -142,3 +142,9 @@
 
 ## Бесплатные офлайн-инструменты создания музыки (2026-10-08)
 - [MuseScore Studio 4.7.5](musescore-studio-free.md) — партитуры, MIDI, WAV; GPL-3.0; DOCUMENTED/NOT_RUN.
+
+
+## Групповое движение / Boids — бесплатные референсы (09.10.2026)
+- [Flocking с Burst/Jobs](flocking-burst-andywiecko.md) — Unity 2021.2.0f1, MIT, две Git-зависимости, DOCUMENTED / NOT_RUN.
+- [Sebastian Lague Boids (legacy)](boids-seblague-legacy.md) — Unity 2019.1.3f1, MIT, старые Ads/Analytics/IAP в manifest; только учебный референс.
+- Vivian Ménard 3D boids (Unity 2022.3.16f1, MIT): карточка подготовлена, запись в GitHub временно заблокирована; не выдавать за сохранённую.
