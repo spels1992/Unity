@@ -168,3 +168,10 @@
 - **HIDrogen** (Input systems): https://github.com/TheNathannator/HIDrogen — MIT; size UNKNOWN; editor NOT_TESTED.
 - **InputManager** (Input systems): https://github.com/daemon3000/InputManager — MIT; size UNKNOWN; editor NOT_TESTED.
 - **Simply Localize** (LOCALIZATION): https://github.com/RenKOFFF/Simply-Localize-Localization-System-for-Unity — MIT; size UNKNOWN; editor NOT_TESTED.
+
+
+### H16 recovery candidates (source references; NOT_TESTED)
+- **Unity Simple Localization** (LOCALIZATION): https://github.com/3d-group/unity-simple-localization — MIT; size UNKNOWN; editor NOT_TESTED.
+- **Localization-Unity** (LOCALIZATION): https://github.com/PicoShot/Localization-Unity — MIT; size UNKNOWN; editor NOT_TESTED.
+- **Ibralogue** (DIALOGUE): https://github.com/Ibralogue/Ibralogue — MIT; size UNKNOWN; editor NOT_TESTED.
+- **Yarn Spinner Unity** (DIALOGUE): https://github.com/YarnSpinnerTool/YarnSpinner-Unity — MIT; size UNKNOWN; editor NOT_TESTED.
