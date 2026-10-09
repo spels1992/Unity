@@ -148,3 +148,6 @@
 - [Flocking с Burst/Jobs](flocking-burst-andywiecko.md) — Unity 2021.2.0f1, MIT, две Git-зависимости, DOCUMENTED / NOT_RUN.
 - [Sebastian Lague Boids (legacy)](boids-seblague-legacy.md) — Unity 2019.1.3f1, MIT, старые Ads/Analytics/IAP в manifest; только учебный референс.
 - Vivian Ménard 3D boids (Unity 2022.3.16f1, MIT): карточка подготовлена, запись в GitHub временно заблокирована; не выдавать за сохранённую.
+
+- [Vivian Ménard — 3D Boids](boids-vivianmenard.md) — Unity 2022.3.16f1, MIT, 3D flocking/obstacle avoidance; DOCUMENTED / NOT_RUN.
+- [Сравнение трёх бесплатных Boids/Flocking](../Comparisons/FREE_BOIDS_FLOCKING_2026.md) — версии, лицензии, зависимости и план изолированных тестов.
