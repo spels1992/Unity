@@ -147,7 +147,10 @@
 ## Групповое движение / Boids — бесплатные референсы (09.10.2026)
 - [Flocking с Burst/Jobs](flocking-burst-andywiecko.md) — Unity 2021.2.0f1, MIT, две Git-зависимости, DOCUMENTED / NOT_RUN.
 - [Sebastian Lague Boids (legacy)](boids-seblague-legacy.md) — Unity 2019.1.3f1, MIT, старые Ads/Analytics/IAP в manifest; только учебный референс.
-- Vivian Ménard 3D boids (Unity 2022.3.16f1, MIT): карточка подготовлена, запись в GitHub временно заблокирована; не выдавать за сохранённую.
 
 - [Vivian Ménard — 3D Boids](boids-vivianmenard.md) — Unity 2022.3.16f1, MIT, 3D flocking/obstacle avoidance; DOCUMENTED / NOT_RUN.
 - [Сравнение трёх бесплатных Boids/Flocking](../Comparisons/FREE_BOIDS_FLOCKING_2026.md) — версии, лицензии, зависимости и план изолированных тестов.
+
+## Бесплатные офлайн-аудиоредакторы — подтверждённые карточки
+- [LMMS 1.2.2](lmms-free.md) — GPL-2.0, создание музыки локально, DOCUMENTED / NOT_RUN.
+- [Audacity 4.0.1](audacity-free.md) — GPLv3, обработка звука и речи локально, DOCUMENTED / NOT_RUN.
