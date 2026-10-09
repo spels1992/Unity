@@ -8,7 +8,7 @@
     "Unity ML-Agents"
   ],
   "card_file": "Research_Archive/H10_20261009_FREE_TECH_CARDS.json",
-  "canonical_tool_catalog_updated": false,
+  "canonical_tool_catalog_updated": true,
   "licenses": {
     "MIT": 2,
     "Apache-2.0": 1
@@ -16,5 +16,11 @@
   "unity_editor_test": "NOT_TESTED",
   "download_size_bytes_verified_count": 0,
   "total_download_bytes": null,
-  "next": "canonical Tool_Catalog cards and real isolated Editor tests"
+  "next": "canonical Tool_Catalog cards and real isolated Editor tests",
+  "canonical_cards_saved": 1,
+  "canonical_cards_pending": 2,
+  "canonical_card_paths": [
+    "Tool_Catalog/vitalrouter-messaging.md"
+  ],
+  "notes": "VitalRouter saved; MemoryPack and ML-Agents canonical writes blocked"
 }
