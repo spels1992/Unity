@@ -1,0 +1,35 @@
+name: Research write smoke test
+on:
+  workflow_dispatch:
+    inputs:
+      probe_id:
+        description: Unique smoke test ID
+        required: true
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: research-smoke-${{ github.repository }}
+  cancel-in-progress: false
+jobs:
+  write-probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Commit probe evidence
+        shell: bash
+        env:
+          PROBE_ID: ${{ inputs.probe_id }}
+        run: |
+          set -euo pipefail
+          [[ "$PROBE_ID" =~ ^[A-Za-z0-9_-]{1,64}$ ]]
+          mkdir -p .github/research-smoke
+          printf 'probe_id=%s\nrun_id=%s\nrepo=%s\nstatus=WORKFLOW_EXECUTED\n' "$PROBE_ID" "$GITHUB_RUN_ID" "$GITHUB_REPOSITORY" > ".github/research-smoke/${PROBE_ID}.txt"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ".github/research-smoke/${PROBE_ID}.txt"
+          git commit -m "test(actions): verify automated write ${PROBE_ID}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
