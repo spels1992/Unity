@@ -185,3 +185,10 @@
 - H13: 3 save system candidates in `Research_Archive/H13_20261009_SAVE_CANDIDATES.md` and 3 testing/CI candidates in `Research_Archive/H13_20261009_TESTING_CANDIDATES.md`.
 - H13 three audio framework candidates remain in local backup due to GitHub write block.
 - No Unity projects changed. CI actions NOT_RUN; avoid paid GitHub minutes; editor tests NOT_TESTED.
+
+
+## 2026-10-09 — восстановление сохранения накопленных исследований
+
+- [Research_Archive/PENDING_RESEARCH_2026-10-09.md](Research_Archive/PENDING_RESEARCH_2026-10-09.md): резервный сводный реестр 8 направлений исследования с первоисточниками и предостережениями по лицензиям; коммит [0710845](https://github.com/spels1992/Unity/commit/0710845fe760c604e3e97b58cc68d573b493024c).
+- **Статус:** DOCUMENTED / NOT_RUN; Unity/Blender не запускались, дополнительные расходы 0 ₽.
+- **Осталось:** перенести подробные карточки и матрицы из резервных Markdown, сверить версии и уже существующие карточки; дополнить индекс и issue #2. Сводный реестр не означает, что все подробности сохранены.
