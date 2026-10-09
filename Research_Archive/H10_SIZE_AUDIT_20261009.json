@@ -1,0 +1,13 @@
+{
+  "checkpoint": "H10-20261009",
+  "resource_count": 3,
+  "verified_exact_download_size_count": 0,
+  "download_size_bytes": null,
+  "size_status": "UNKNOWN",
+  "resources": [
+    "VitalRouter",
+    "MemoryPack",
+    "Unity ML-Agents"
+  ],
+  "note": "No downloads or size measurements. Zero does not mean zero bytes."
+}
