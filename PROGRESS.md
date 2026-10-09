@@ -178,3 +178,10 @@
 - [1d623dd](https://github.com/spels1992/Unity/commit/1d623dd09e9b04731fb232cbfde60fd06f421122) — [MuseScore Studio](Tool_Catalog/musescore-studio-free.md), v4.7.5, GPL-3.0, самостоятельная бесплатная версия; повторное чтение GitHub PASS.
 - Исследованы также LMMS 1.2.2 (GPL-2.0) и Audacity 4.0.1 (GPLv3), но запись карточек заблокирована safety checks, не считать их сохранёнными.
 - Unity/Blender/DAW не запускались. Дополнительные расходы 0 ₽. Следующее: сохранить LMMS/Audacity, сравнение и аудио workflow.
+
+
+## 2026-10-09 H13 — save systems, CI, H12 recovery
+- H12: 11 research references recovered in `Research_Archive/H12_20261009_RECOVERED_11.md`; no editor tests, exact sizes UNKNOWN; GPL and custom licenses LEGAL_REVIEW.
+- H13: 3 save system candidates in `Research_Archive/H13_20261009_SAVE_CANDIDATES.md` and 3 testing/CI candidates in `Research_Archive/H13_20261009_TESTING_CANDIDATES.md`.
+- H13 three audio framework candidates remain in local backup due to GitHub write block.
+- No Unity projects changed. CI actions NOT_RUN; avoid paid GitHub minutes; editor tests NOT_TESTED.
