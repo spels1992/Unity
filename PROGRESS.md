@@ -203,3 +203,11 @@
 - Complete pending research metadata recovered and verified by GitHub readback. This is a research **queue**, not canonical adoption or editor PASS.
 - 7 H13/H14 records: `Research_Archive/H16_PENDING_FULL_METADATA_20261009.json`; 9 H15 records: `Research_Archive/H15_UNITY_NINE_FULL_METADATA_RECOVERY_20261009.json`; URL list: `Research_Archive/H16_PENDING_RECOVERY_20261009.md`.
 - Need master index deduplication, individual license/dependency review and canonical card promotion. Exact sizes UNKNOWN/null; Unity/Blender editor NOT_TESTED; no large archives downloaded, no new costs.
+
+
+## 2026-10-09 — Boids/Flocking backlog восстановлен
+
+- [Vivian Ménard 3D Boids](Tool_Catalog/boids-vivianmenard.md) — Unity 2022.3.16f1, MIT, DOCUMENTED / NOT_RUN; commit a62ce64.
+- [Сравнение трёх бесплатных Boids](Comparisons/FREE_BOIDS_FLOCKING_2026.md) — commit ea138e2.
+- [Каталог](Tool_Catalog/INDEX.md) дополнен ссылками — commit d5c100b.
+- Все сведения получены из документации/исходников, Unity 6.3 не тестировалась, 0 ₽. Остальные подробные резервные файлы за 8–9 октября остаются в очереди на полный перенос.
