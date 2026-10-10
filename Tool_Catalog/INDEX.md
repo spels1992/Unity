@@ -206,3 +206,8 @@
 | [SST Pooling](recovered-sst-pooling.md) | POOLING | MIT | RECOVERED_METADATA / NOT_RUN |
 | [uPools](recovered-upools.md) | POOLING | MIT | RECOVERED_METADATA / NOT_RUN |
 | [Unity.ObjectPooling](recovered-unity-objectpooling.md) | POOLING | MIT | RECOVERED_METADATA / NOT_RUN |
+
+## Unity Performance Testing
+| Инструмент | Назначение | Лицензия/цена | Проверка | Карточка |
+|---|---|---|---|---|
+| Unity Performance Testing API 3.5.0 | Performance benchmarks для Unity Test Framework | Unity package, бесплатно без отдельной покупки; условия Unity, не MIT | DOCUMENTED; Editor NOT_RUN | [Performance Testing API](unity-performance-testing-api-3-5-0.md) |
