@@ -239,3 +239,10 @@
 - [Кросс-репозиторный отчёт](Research_Archive/CROSS_REPO_RECOVERY_AUDIT_20261009.md), коммит [d4af059](https://github.com/spels1992/Unity/commit/d4af05924aad14ea3e326eaf48c18dfcb2a5b4ed).
 - В `spels1992/Blender` уже лежат 23/23 H16 URL и полный JSON метаданных; не дублировать. Потребуются смысловая дедупликация и независимая лицензионная сверка.
 - Полная сверка прочих ранее подготовленных резервных файлов ещё не завершена; NOT_RUN, 0 ₽.
+
+## 2026-10-10 — восстановление Unity Performance Testing API
+- Восстановлена карточка `Tool_Catalog/unity-performance-testing-api-3-5-0.md`, commit `3ea2be4e64c7e73b5c48ab8cd3e17402325e8fd8`.
+- Обновлён `Tool_Catalog/INDEX.md`, commit `0eced404506a6f02348df778d3aab5e7b84cc990`.
+- Способ: GitHub Plugin create_file/update_file; карточка и индекс прочитаны обратно.
+- Исследование документальное; Unity Editor/PlayMode NOT_RUN; лицензия пакета требует проверки перед распространением.
+- GitHub Actions не запускался. Следующий шаг: реальные тесты и аудит остальных ранее несохранённых карточек.
