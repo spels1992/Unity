@@ -1,7 +1,5 @@
 # UNITY — глобальная библиотека готовых игровых решений
 
-**ChatGPT — используемые плагины и скиллы:** [проверенный перечень и правила применения](CHATGPT_PLUGINS.md).
-
 ## Локальные генераторы моделей: ComfyUI + Stable Fast 3D
 
 При производстве новых игровых ассетов **обязательно проверяем** установленный бесплатный локальный путь ComfyUI → Stable Fast 3D → Blender → Unity, при условии успешной проверки и соответствия художественным требованиям. ComfyUI уже работает как локальный GPU-сервер; Stable Fast 3D пока подтверждён на уровне исходников и зависимостей, но не полной генерации GLB. **[Полная инструкция, точные Windows-пути и условия использования](docs/LOCAL_AI_3D_PIPELINE.md)**. Платные endpoint недопустимы, результат без реальных Unity-тестов не считать готовым.
@@ -31,7 +29,6 @@
 | Самые полезные решения | [BEST_SOLUTIONS.md](BEST_SOLUTIONS.md) |
 | Совместимость и готовые связки | [COMPATIBILITY_MATRIX.md](COMPATIBILITY_MATRIX.md), [21_Compatible_Stacks](21_Compatible_Stacks/README.md) |
 | Бесплатность и лицензии | [FREE_ONLY_POLICY.md](FREE_ONLY_POLICY.md), [LICENSE_MATRIX.md](LICENSE_MATRIX.md) |
-| Подходящие плагины и скиллы Unity/Blender | [AVAILABLE_PLUGINS_AND_SKILLS.md](19_AI_Automation/AVAILABLE_PLUGINS_AND_SKILLS.md) |
 | Правила карточки | [Tool_Catalog/CARD_TEMPLATE.md](Tool_Catalog/CARD_TEMPLATE.md) |
 | Глубокое исследование и очередь задач | [ROADMAP.md](ROADMAP.md), [PROGRESS.md](PROGRESS.md) |
 | Проверенные источники | [SOURCES.md](SOURCES.md) |
