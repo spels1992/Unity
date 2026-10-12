@@ -1,5 +1,14 @@
 # Unity — обязательные правила локального хранения
 
+## Обязательные плагины и восстановление
+
+- **Windows MCP и WinApp MCP** — два основных инструмента управления Windows: командный/системный и оконный/UI соответственно.
+- **Blender MCP** — работа непосредственно в Blender; при недоступности восстанавливать аддон, GUI, сервер и туннель **через Windows MCP или WinApp MCP**. Проверять живой командой Blender MCP. С резервным клиентом Blender на ПК может запускаться автоматически.
+- **Unity MCP** (AnkleBreaker Unity MCP Server) — работа в Unity Editor; при недоступности восстанавливать Unity Hub, Editor, лицензирование, сервер и туннель **через Windows MCP или WinApp MCP**, затем проверять `unity_editor_ping`.
+- **Desktop Commander / Remote Desktop Commander допускается ИСКЛЮЧИТЕЛЬНО для восстановления Windows MCP и WinApp MCP**. Никакой разработки, моделирования, восстановления Blender/Unity MCP напрямую, GitHub или работы с файлами через него.
+- Общий стандарт **ComfyUI → Stable Fast 3D (при подтверждённой генерации GLB) → Blender MCP → Unity MCP**, единые D: пути и сохранения — [WORKFLOW_AND_PATHS.md](WORKFLOW_AND_PATHS.md). При конфликте старых правил руководствоваться им и [LOCAL_ASSET_PATHS.md](LOCAL_ASSET_PATHS.md).
+
+
 ## Единые локальные папки AI-заготовок (обязательно)
 
 - **ComfyUI:** `D:\Blender\Comfy\3D заготовки` — промежуточные изображения, текстуры и заготовки ComfyUI.
