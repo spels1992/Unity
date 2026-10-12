@@ -1,15 +1,15 @@
 # Единый производственный процесс Farm / Blender / Unity (Windows, 2026-10-12)
 
-**Один и тот же документ** в репозиториях \`spels1992/Farm\`, \`spels1992/Unity\`, \`spels1992/Blender\`. Канонический стандарт хранения — файл \`LOCAL_ASSET_PATHS.md\` (одинаковый во всех трёх). Уточнения для конкретного проекта не могут отменять этот стандарт.
+**Один и тот же документ** в репозиториях `spels1992/Farm`, `spels1992/Unity`, `spels1992/Blender`. Канонический стандарт хранения — файл `LOCAL_ASSET_PATHS.md` (одинаковый во всех трёх). Уточнения для конкретного проекта не могут отменять этот стандарт.
 
 ## Плагины ChatGPT: точные названия и назначения
 
 - **Windows MCP** и **WinApp MCP** — два **основных** инструмента управления компьютером. Windows MCP: процессы, PowerShell, файлы, туннели, диагностика. WinApp MCP: окна, UI Automation, запуск через обычный пользовательский интерфейс, управление приложениями. Если один недоступен — проверять/восстанавливать через другой.
 - **Blender MCP** (локальный Overtli-Blender) — **основной и обязательный** инструмент действий в Blender: сцены, геометрия, материалы, UV, риг/анимация, экспорт. При сбое Blender MCP **Windows MCP или WinApp MCP** восстанавливают Blender, его аддон и MCP-туннель, после чего проверяется реальная команда Blender MCP.
-- **Unity MCP** (установлен **AnkleBreaker Unity MCP Server**, плагин ChatGPT «Unity MCP Server») — **основной инструмент** управления Unity Editor, сценами, объектами, импортом и тестами. При сбое Unity MCP **Windows MCP или WinApp MCP** восстанавливают Unity Hub/Editor, лицензирование, сервер и туннель ABS MCP Tunnel. Затем проверить реальный \`unity_editor_ping\`. Unity Hub/Editor/лицензирование запускать с одинаковыми обычными правами, не через повышенный PowerShell.
+- **Unity MCP** (установлен **AnkleBreaker Unity MCP Server**, плагин ChatGPT «Unity MCP Server») — **основной инструмент** управления Unity Editor, сценами, объектами, импортом и тестами. При сбое Unity MCP **Windows MCP или WinApp MCP** восстанавливают Unity Hub/Editor, лицензирование, сервер и туннель ABS MCP Tunnel. Затем проверить реальный `unity_editor_ping`. Unity Hub/Editor/лицензирование запускать с одинаковыми обычными правами, не через повышенный PowerShell.
 - **Desktop Commander** (плагин также может отображаться как **Remote Desktop Commander**) — **строго ТОЛЬКО** для восстановления **Windows MCP и WinApp MCP**, включая их процессы и туннели. **Запрещено** применять его для Unity MCP, Blender MCP, моделирования, разработки, GitHub, обычных операций с файлами, ComfyUI/SF3D и любых иных задач. Даже если оба специализированных MCP неисправны, Desktop Commander не превращается в общий инструмент: он чинит лишь Windows MCP/WinApp MCP.
 
-Если Blender MCP в конкретном чате не предоставлен, но доступен Windows MCP, разрешён локальный резерв: \`D:\Blender\Tools\Tunnel\Blender-MCP-Fallback.py --command get_scene_info\` через Python \`D:\Blender\Tools\Overtli-Blender\.venv\Scripts\python.exe\`. Сам Blender может автоматически открыться по MCP-запросу; не требовать ручного запуска без проверки. Подробности — \`spels1992/Farm/docs/BLENDER_MCP_AUTO_RECOVERY.md\`. Отсутствие инструмента в конкретном чате не означает его отсутствия на ПК.
+Если Blender MCP в конкретном чате не предоставлен, но доступен Windows MCP, разрешён локальный резерв: `D:\Blender\Tools\Tunnel\Blender-MCP-Fallback.py --command get_scene_info` через Python `D:\Blender\Tools\Overtli-Blender\.venv\Scripts\python.exe`. Сам Blender может автоматически открыться по MCP-запросу; не требовать ручного запуска без проверки. Подробности — `spels1992/Farm/docs/BLENDER_MCP_AUTO_RECOVERY.md`. Отсутствие инструмента в конкретном чате не означает его отсутствия на ПК.
 
 ## Бесплатный конвейер игрового ассета
 
@@ -23,24 +23,24 @@
 
 | Объект | Каноническое размещение |
 |---|---|
-| ComfyUI (программа) | \`D:\Program Files\ComfyUI\`, запускающий \`Start-ComfyUI-Silent.ps1\` |
-| ComfyUI: промежуточные PNG/текстуры | \`D:\Blender\Comfy\3D заготовки\<Имя>\` |
-| Stable Fast 3D (программа) | \`D:\Program Files\StableFast3D\`, исполняемый \`source\run.py\` |
-| SF3D: черновые mesh.glb/preview | \`D:\Blender\Stable 3D\3D заготовки\<Имя>\` |
-| SF3D старый \`outputs\` | \`D:\Program Files\StableFast3D\outputs\` — проверенный **junction** на каноническую папку выше, не второй склад |
-| Blender: утверждённые .blend/FBX/GLB | \`D:\Blender\Models\<ИмяМодели>\` |
-| Blender: общие инструменты/MCP | \`D:\Blender\Tools\` |
-| Unity: общие инструменты/MCP | \`D:\Unity\Tools\` |
-| Farm: единый корень | \`D:\Unity\Projects\Farm\` |
-| Farm: Git-источники | \`D:\Unity\Projects\Farm\Source\` |
-| Farm: Unity Editor-проект | \`D:\Unity\Projects\Farm\Source\world\v2\UnityProject\` |
-| Farm: исходные игровые ассеты | \`D:\Unity\Projects\Farm\Source\world\v2\UnityProject\Assets\` по сущностям |
-| Farm: тестовые проекты, сборки, отчёты | \`D:\Unity\Projects\Farm\QA\`, \`Builds\`, \`Reports\`, \`Experiments\` (создавать при необходимости внутри Farm) |
-| Farm: запускатель тестового Windows EXE | \`D:\Unity\Projects\Farm\QA\Tools\Invoke-FarmOfflineQA.ps1\` |
-| Unity Hub и Editor | \`D:\Program Files\Unity Hub\` и \`D:\Program Files\Unity\Hub\Editor\` |
-| Unity: скачивания и пользовательские данные | \`D:\Program Files\Unity\Downloads\`, \`D:\Unity\HubData\`, \`D:\Unity\UserData\` |
+| ComfyUI (программа) | `D:\Program Files\ComfyUI`, запускающий `Start-ComfyUI-Silent.ps1` |
+| ComfyUI: промежуточные PNG/текстуры | `D:\Blender\Comfy\3D заготовки\<Имя>` |
+| Stable Fast 3D (программа) | `D:\Program Files\StableFast3D`, исполняемый `source\run.py` |
+| SF3D: черновые mesh.glb/preview | `D:\Blender\Stable 3D\3D заготовки\<Имя>` |
+| SF3D старый `outputs` | `D:\Program Files\StableFast3D\outputs` — проверенный **junction** на каноническую папку выше, не второй склад |
+| Blender: утверждённые .blend/FBX/GLB | `D:\Blender\Models\<ИмяМодели>` |
+| Blender: общие инструменты/MCP | `D:\Blender\Tools` |
+| Unity: общие инструменты/MCP | `D:\Unity\Tools` |
+| Farm: единый корень | `D:\Unity\Projects\Farm` |
+| Farm: Git-источники | `D:\Unity\Projects\Farm\Source` |
+| Farm: Unity Editor-проект | `D:\Unity\Projects\Farm\Source\world\v2\UnityProject` |
+| Farm: исходные игровые ассеты | `D:\Unity\Projects\Farm\Source\world\v2\UnityProject\Assets` по сущностям |
+| Farm: тестовые проекты, сборки, отчёты | `D:\Unity\Projects\Farm\QA`, `Builds`, `Reports`, `Experiments` (создавать при необходимости внутри Farm) |
+| Farm: запускатель тестового Windows EXE | `D:\Unity\Projects\Farm\QA\Tools\Invoke-FarmOfflineQA.ps1` |
+| Unity Hub и Editor | `D:\Program Files\Unity Hub` и `D:\Program Files\Unity\Hub\Editor` |
+| Unity: скачивания и пользовательские данные | `D:\Program Files\Unity\Downloads`, `D:\Unity\HubData`, `D:\Unity\UserData` |
 
-**Запрещено создавать новые Farm-проекты/QA-сборки в \`D:\FarmDev\`, \`D:\Unity\QA\`, \`D:\CodexWork\` или прямо в корне D:.** Уже существующие старые каталоги считать legacy: не удалять и не переносить до сопоставления Git, уникальных файлов и зависимостей. Не изменять утверждённые модели без отдельного version/checkpoint.
+**Запрещено создавать новые Farm-проекты/QA-сборки в `D:\FarmDev`, `D:\Unity\QA`, `D:\CodexWork` или прямо в корне D:.** Уже существующие старые каталоги считать legacy: не удалять и не переносить до сопоставления Git, уникальных файлов и зависимостей. Не изменять утверждённые модели без отдельного version/checkpoint.
 
 ## Что осталось на C: после переноса
 
@@ -48,4 +48,4 @@
 
 ## Контроль перед началом работы / после переезда
 
-Сверить GitHub main, локальный HEAD/ветку, \`git status\` (включая несохранённое и неопубликованное), реальный путь файла, output flags/junction и планировщик. Если документация и реально используемый путь расходятся — сначала исправить расхождение и проверить инструмент, **не плодить новые копии/директории**. Не считать успешным GitHub-save одно лишь наличие локального коммита; проверять точный SHA опубликованной ветки.
+Сверить GitHub main, локальный HEAD/ветку, `git status` (включая несохранённое и неопубликованное), реальный путь файла, output flags/junction и планировщик. Если документация и реально используемый путь расходятся — сначала исправить расхождение и проверить инструмент, **не плодить новые копии/директории**. Не считать успешным GitHub-save одно лишь наличие локального коммита; проверять точный SHA опубликованной ветки.
