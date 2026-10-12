@@ -48,4 +48,8 @@
 
 ## Контроль перед началом работы / после переезда
 
+**Проверка миграции в один запуск:** через Windows MCP запустить `D:\Monitoring\MigrationAudit\Test-FarmPathMigration.ps1` (проверенная локальная копия [Farm/NightRun/tools/windows/Test-FarmPathMigration.ps1](https://github.com/spels1992/Farm/blob/main/NightRun/tools/windows/Test-FarmPathMigration.ps1)). Скрипт работает только на чтение, сохраняет JSON в `D:\Monitoring\MigrationAudit`, отмечает `PASS/FAIL/WARN`; любой `FAIL` выяснять до новых переносов или создания копий. Не использовать его для автоматической публикации Git-коммитов.
+
+
+
 Сверить GitHub main, локальный HEAD/ветку, `git status` (включая несохранённое и неопубликованное), реальный путь файла, output flags/junction и планировщик. Если документация и реально используемый путь расходятся — сначала исправить расхождение и проверить инструмент, **не плодить новые копии/директории**. Не считать успешным GitHub-save одно лишь наличие локального коммита; проверять точный SHA опубликованной ветки.
