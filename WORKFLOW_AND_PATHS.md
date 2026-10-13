@@ -7,7 +7,7 @@
 - **Windows MCP** и **WinApp MCP** — два **основных** инструмента управления компьютером. Windows MCP: процессы, PowerShell, файлы, туннели, диагностика. WinApp MCP: окна, UI Automation, запуск через обычный пользовательский интерфейс, управление приложениями. Если один недоступен — проверять/восстанавливать через другой.
 - **Blender MCP** (локальный Overtli-Blender) — **основной и обязательный** инструмент действий в Blender: сцены, геометрия, материалы, UV, риг/анимация, экспорт. При сбое Blender MCP **Windows MCP или WinApp MCP** восстанавливают Blender, его аддон и MCP-туннель, после чего проверяется реальная команда Blender MCP.
 - **Unity MCP** (установлен **AnkleBreaker Unity MCP Server**, плагин ChatGPT «Unity MCP Server») — **основной инструмент** управления Unity Editor, сценами, объектами, импортом и тестами. При сбое Unity MCP **Windows MCP или WinApp MCP** восстанавливают Unity Hub/Editor, лицензирование, сервер и туннель ABS MCP Tunnel. Затем проверить реальный `unity_editor_ping`. Unity Hub/Editor/лицензирование запускать с одинаковыми обычными правами, не через повышенный PowerShell.
-- **Desktop Commander** (плагин также может отображаться как **Remote Desktop Commander**) — **строго ТОЛЬКО** для восстановления **Windows MCP и WinApp MCP**, включая их процессы и туннели. **Запрещено** применять его для Unity MCP, Blender MCP, моделирования, разработки, GitHub, обычных операций с файлами, ComfyUI/SF3D и любых иных задач. Даже если оба специализированных MCP неисправны, Desktop Commander не превращается в общий инструмент: он чинит лишь Windows MCP/WinApp MCP.
+- **Desktop Commander** (плагин также может отображаться как **Remote Desktop Commander**) — **строго ТОЛЬКО** для восстановления **Windows MCP и WinApp MCP**, включая их процессы и туннели. **Запрещено** применять его для Unity MCP, Blender MCP, моделирования, разработки, GitHub, обычных операций с файлами, SF3D и любых иных задач. Даже если оба специализированных MCP неисправны, Desktop Commander не превращается в общий инструмент: он чинит лишь Windows MCP/WinApp MCP.
 
 Если Blender MCP в конкретном чате не предоставлен, но доступен Windows MCP, разрешён локальный резерв: `D:\Blender\Tools\Tunnel\Blender-MCP-Fallback.py --command get_scene_info` через Python `D:\Blender\Tools\Overtli-Blender\.venv\Scripts\python.exe`. Сам Blender может автоматически открыться по MCP-запросу; не требовать ручного запуска без проверки. Подробности — `spels1992/Farm/docs/BLENDER_MCP_AUTO_RECOVERY.md`. Отсутствие инструмента в конкретном чате не означает его отсутствия на ПК.
 
@@ -15,7 +15,6 @@
 
 **Обязательно сначала загрузить актуальный скилл [3D Craft](https://chatgpt.com/plugins/plugins_6acdc74c86888191b2101b657a2e8f8d) (`3d-craft`), прочитать [docs/3D_CRAFT.md](docs/3D_CRAFT.md), [AGENTS.md](AGENTS.md) и локальные пути.** Правило действует во всех трёх репозиториях Farm, Blender, Unity, включая детали и аксессуары. Не подменять его несвязанным стеком.
 
-1. **Референс:** использовать изображение пользователя либо создавать изображение напрямую, без ComfyUI. ComfyUI остаётся доступным для отдельных задач вне скилла.
 2. **Локальный Stable Fast 3D:** Windows MCP запускает `D:\Program Files\StableFast3D\Run-SF3D.cmd` с отдельным PNG; подтверждать получение корректного GLB, логи/exit code; один GPU-прогон за раз. Установку проверять быстро, не заменять SF3D на Rodin.
 3. **Blender MCP:** сравнить кандидаты частей рядом с основной моделью, проверить геометрию, выбрать и временно примерить. Сохранять исходник и backup, корректировать только плохую часть, не лепить с нуля качественную базу. Провести обязательный QA с 42 ракурсов после каждой принятой правки; повторять до отсутствия критических и серьёзных ошибок.
 4. **Unity MCP:** при игровом экспорте проверить импорт, масштаб, PBR/UV, rig/анимации, LOD, коллизии, арт-гейты, EditMode/PlayMode и фактические FPS/сцену по задаче. Отсутствующий тест = `NOT_TESTED`, не PASS.
@@ -27,8 +26,6 @@
 
 | Объект | Каноническое размещение |
 |---|---|
-| ComfyUI (программа) | `D:\Program Files\ComfyUI`, запускающий `Start-ComfyUI-Silent.ps1` |
-| ComfyUI: промежуточные PNG/текстуры | `D:\Blender\Comfy\3D заготовки\<Имя>` |
 | Stable Fast 3D (программа) | `D:\Program Files\StableFast3D`, канонический запуск `Run-SF3D.cmd`, исходники `source\run.py` |
 | SF3D: черновые mesh.glb/preview | `D:\Blender\Stable 3D\3D заготовки\<Имя>` |
 | SF3D старый `outputs` | `D:\Program Files\StableFast3D\outputs` — проверенный **junction** на каноническую папку выше, не второй склад |
