@@ -6,7 +6,7 @@
 
 ## 🚨 ПРОВЕРЕННЫЕ ЛОКАЛЬНЫЕ ПУТИ И ПОЛНЫЙ 3D-КОНВЕЙЕР
 
-**Перед работой с ComfyUI, Stable Fast 3D, SkinTokens, Blender или Unity обязательно открыть [docs/LOCAL_3D_PRODUCTION_PATHS.md](docs/LOCAL_3D_PRODUCTION_PATHS.md).** Там указаны проверенные пути установок и результатов, последовательность референс → 3D Craft → Stable Fast 3D → Blender QA → Bonix/SkinTokens CPU → анимации → Unity QA. Если локальные инструменты в текущем окружении отсутствуют, не притворяться, что диск D: доступен.
+**Перед работой с Stable Fast 3D, SkinTokens, Blender или Unity обязательно открыть [docs/LOCAL_3D_PRODUCTION_PATHS.md](docs/LOCAL_3D_PRODUCTION_PATHS.md).** Там указаны проверенные пути установок и результатов, последовательность референс → 3D Craft → Stable Fast 3D → Blender QA → Bonix/SkinTokens CPU → анимации → Unity QA. Если локальные инструменты в текущем окружении отсутствуют, не притворяться, что диск D: доступен.
 
 ## 🚨 3D-МОДЕЛИ И АНИМАЦИИ — РАЗНЫЕ ОБЯЗАТЕЛЬНЫЕ СКИЛЛЫ
 
