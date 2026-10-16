@@ -6,7 +6,7 @@
 
 ## 🚨 3D-МОДЕЛИ И АНИМАЦИИ — РАЗНЫЕ ОБЯЗАТЕЛЬНЫЕ СКИЛЛЫ
 
-**Модель:** 3D Craft (3d-craft, @3d-craft) → Stable Fast 3D → Blender QA 42 ракурса и проверка анатомии. **Кости и анимации:** Bones = технический скилл rig-motion, сейчас отображается Rig / @Rig; @Bones только после подтверждённого переименования. Использовать SkinTokens CPU при пригодности, затем проверять движения в Unity. Сначала одобрить качество модели, затем создавать rig; не принимать мультяшную подмену реалистичного животного. Подробности: [docs/LOCAL_AI_3D_PIPELINE.md](../docs/LOCAL_AI_3D_PIPELINE.md). Результаты локально, без GitHub push без явного нового поручения.
+**Модель:** 3D Craft (3d-craft, @3d-craft) → Hunyuan3D-2GP → Blender QA 42 ракурса и проверка анатомии. **Кости и анимации:** Bones = технический скилл rig-motion, сейчас отображается Rig / @Rig; @Bones только после подтверждённого переименования. Использовать SkinTokens CPU при пригодности, затем проверять движения в Unity. Сначала одобрить качество модели, затем создавать rig; не принимать мультяшную подмену реалистичного животного. Подробности: [docs/LOCAL_AI_3D_PIPELINE.md](../docs/LOCAL_AI_3D_PIPELINE.md). Результаты локально, без GitHub push без явного нового поручения.
 
 
 Before creating, modifying or repairing any original 3D model (including parts, clothes and accessories), read [docs/3D_CRAFT.md](../docs/3D_CRAFT.md) and root [AGENTS.md](../AGENTS.md), then use the installed **3D Craft / 3Д Крафт** skill (`3d-craft`), available at https://chatgpt.com/plugins/plugins_6acdc74c86888191b2101b657a2e8f8d. Verify it is actually loaded; a text mention is not proof. If unavailable, report BLOCKED instead of silently switching pipelines.
